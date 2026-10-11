@@ -1,0 +1,10 @@
+<nav class="cv-navigation" aria-label="CV versions">
+  <a href="{{ '/cv/' | relative_url }}"{% if page.cv_version == 'academic' %} aria-current="page"{% endif %}>
+    <span class="cv-navigation-title">Academic CV</span>
+    <span class="cv-navigation-description">Experience, education &amp; research</span>
+  </a>
+  <a href="{{ '/cv/story/' | relative_url }}"{% if page.cv_version == 'personal' %} aria-current="page"{% endif %}>
+    <span class="cv-navigation-title">My story</span>
+    <span class="cv-navigation-description">A personal journey into astronomy</span>
+  </a>
+</nav>

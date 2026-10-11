@@ -1,0 +1,34 @@
+- id: icebear
+  title: "ICEBEAR"
+  expanded_name: "Investigating Chemical Evolution Between icE and gAs in massive protostaRs"
+  pi: "Yuan Chen"
+  program_ids: "JWST GO 8887 (Cycle 4)"
+  overview: "/research/icebear/"
+  description: |-
+    ICEBEAR is a JWST program that I lead as principal investigator (PI). It is designed to compare complex organic molecules in the ice and gas of 15 high-mass protostars. These sources were selected from existing ALMA surveys because they have rich gas-phase molecular spectra and are suitable for JWST's mid-infrared spectroscopy. The project extends ice–gas comparisons that have so far focused mainly on low- and intermediate-mass protostars to the environments in which massive stars form.
+
+    With JWST/MIRI-MRS, we look for the weak absorption features of complex organic ices and compare their abundances with gas measurements in the same sources. This lets us investigate how chemistry in icy grain mantles is carried into the warm gas as the ices sublimate, and which molecules undergo further processing. By following molecules across this transition, ICEBEAR aims to clarify how the chemical inventory of massive protostars is built and evolves.
+
+    Beyond the COM ice–gas comparison, ICEBEAR's full mid-infrared spectra offer a broader view of the environments in which massive stars form. Molecular and atomic lines can probe warm gas, shocks, and ionization, while their spatial distributions may help distinguish emission close to the protostars from that along nearby jets and outflow cavities within the observed fields. Stronger ice bands provide opportunities to measure abundant ice species, such as $\mathdefault{H\_{2}O}$ and $\mathdefault{CO\_{2}}$, and investigate their thermal processing. Silicate features and the dust continuum can also constrain extinction and dust properties. Together with simultaneous MIRI imaging of the surrounding star-forming regions, these diagnostics can help place the molecular chemistry in its physical context and explore how local conditions influence the observed gas and ice.
+
+- id: joys
+  title: "JOYS"
+  expanded_name: "JWST Observations of Young protoStars"
+  pi: "Ewine F. van Dishoeck"
+  program_ids: "JWST GTO 1290"
+  overview: "/research/joys/"
+  description: |-
+    JOYS uses JWST to explore the earliest stages of star formation, from accretion and jets to outflows, embedded disks, and the chemistry of gas and ice. My work focuses on the molecular inventory stored in protostellar ices and how it connects to the gas. JWST's sensitivity and spectral resolution make it possible to investigate weak, overlapping ice features that were difficult to identify and quantify with earlier infrared telescopes.
+
+    I compare JWST/MIRI-MRS spectra with laboratory ice measurements to identify likely molecular carriers and examine how their spectral features vary across sources. Combining data from JOYS, JOYS+, and the IPA program allows me to study how widespread these weak bands are. I also use complementary ALMA observations to compare the ice and gas abundances of complex organic molecules in individual protostars, testing which parts of the ice chemistry may survive sublimation.
+
+- id: coccoa
+  title: "CoCCoA"
+  expanded_name: "Complex Chemistry in hot Cores with ALMA"
+  pi: "Brett McGuire"
+  program_ids: "ALMA 2019.1.00246.S, 2019.2.00112.S, 2022.1.00499.S, 2023.1.00466.S"
+  overview: "/research/coccoa/"
+  description: |-
+    Hot cores around forming massive stars contain a rich variety of organic molecules, but their formation histories are still uncertain. CoCCoA uses ALMA observations of these warm, dense regions to investigate their molecular chemistry across a diverse sample of high-mass star-forming regions. Comparing their molecular abundances with those in low-mass protostars helps us ask whether stars of different masses share a similar chemical starting point, and how their environments influence the subsequent chemistry.
+
+    My work within CoCCoA focuses on oxygen-bearing complex organic molecules, including $\mathdefault{CH\_{3}CHO}$, $\mathdefault{C\_{2}H\_{5}OH}$, $\mathdefault{CH\_{3}OCH\_{3}}$, $\mathdefault{CH\_{3}OCHO}$, $\mathdefault{CH\_{2}OHCHO}$, $\mathdefault{(CH\_{2}OH)\_{2}}$, and $\mathdefault{CH\_{3}COCH\_{3}}$. I use spectral modeling to derive molecular column densities ratios and compare them with astrochemical modeling and experimental results to investigate possible formation and destruction pathways.

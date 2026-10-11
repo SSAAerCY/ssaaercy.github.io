@@ -1,0 +1,19 @@
+{% assign carousel_study = include.study %}
+{% if carousel_study.carousel_figures.size > 0 %}
+<div class="research-carousel" data-research-carousel data-interval="2000" role="region" aria-roledescription="carousel" aria-label="{{ carousel_study.title | escape }} images">
+  <a class="research-card-image" href="{{ carousel_study.url | relative_url }}" aria-label="Read {{ carousel_study.title | escape }}">
+    {% for figure_id in carousel_study.carousel_figures %}
+    {% assign carousel_figure = site.data.research_figures[figure_id] %}
+    <img class="research-carousel-slide" src="{{ '/images/research/' | append: figure_id | append: '.png' | relative_url }}" alt="{{ carousel_figure.alt | escape }}" loading="lazy" decoding="async"{% unless forloop.first %} hidden{% endunless %}>
+    {% endfor %}
+  </a>
+  <div class="research-carousel-controls" hidden>
+    <button type="button" data-carousel-previous aria-label="Previous image in {{ carousel_study.title | escape }}"><span aria-hidden="true">‹</span></button>
+    <span class="research-carousel-count" data-carousel-count aria-live="off" aria-atomic="true">1/{{ carousel_study.carousel_figures.size }}</span>
+    <button type="button" data-carousel-next aria-label="Next image in {{ carousel_study.title | escape }}"><span aria-hidden="true">›</span></button>
+    <button type="button" data-carousel-toggle aria-label="Play image rotation in {{ carousel_study.title | escape }}" title="Play"><span aria-hidden="true">▶</span></button>
+  </div>
+</div>
+{% elsif carousel_study.image %}
+<a class="research-card-image" href="{{ carousel_study.url | relative_url }}" aria-label="Read {{ carousel_study.title | escape }}"><img src="{{ carousel_study.image | relative_url }}" alt="{{ carousel_study.image_alt | default: carousel_study.title | escape }}" loading="lazy"></a>
+{% endif %}

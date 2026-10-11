@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "source": "NASA ADS/SciX",
+  "source_url": "https://adsabs.github.io/help/actions/analyze",
+  "as_of": "2026-10-09",
+  "date_label": "Oct 2026",
+  "scope": "Refereed publications listed on this site; self-citations included.",
+  "summary": {
+    "paper_count": 18,
+    "total_citations": 581,
+    "h_index": 10
+  },
+  "papers": {
+    "Chen2023coccoa": {
+      "citation_count": 44,
+      "bibcode": "2023A&A...678A.137C",
+      "ads_url": "https://scixplorer.org/abs/2023A%26A...678A.137C/abstract"
+    },
+    "Chen2024icegas": {
+      "citation_count": 43,
+      "bibcode": "2024A&A...690A.205C",
+      "ads_url": "https://scixplorer.org/abs/2024A%26A...690A.205C/abstract"
+    },
+    "Chen2025acetone": {
+      "citation_count": 9,
+      "bibcode": "2025A&A...696A.198C",
+      "ads_url": "https://scixplorer.org/abs/2025A%26A...696A.198C/abstract"
+    },
+    "Chen2026": {
+      "citation_count": 0,
+      "bibcode": "2026ApJ..1005L..30C",
+      "ads_url": "https://scixplorer.org/abs/2026ApJ..1005L..30C/abstract"
+    },
+    "Gieser2026": {
+      "citation_count": 2,
+      "bibcode": "2026A&A...709A.235G",
+      "ads_url": "https://scixplorer.org/abs/2026A%26A...709A.235G/abstract"
+    },
+    "Liu2025sulfur": {
+      "citation_count": 7,
+      "bibcode": "2025A&A...701A.141L",
+      "ads_url": "https://scixplorer.org/abs/2025A%26A...701A.141L/abstract"
+    },
+    "Nazari2026": {
+      "citation_count": 0,
+      "bibcode": "2026A&A...711A.240N",
+      "ads_url": "https://scixplorer.org/abs/2026A%26A...711A.240N/abstract"
+    },
+    "Rayalacheruvu2025indra": {
+      "citation_count": 10,
+      "bibcode": "2025ApJS..281...51R",
+      "ads_url": "https://scixplorer.org/abs/2025ApJS..281...51R/abstract"
+    },
+    "Reyes-Reyes2026": {
+      "citation_count": 1,
+      "bibcode": "2026A&A...709A..13R",
+      "ads_url": "https://scixplorer.org/abs/2026A%26A...709A..13R/abstract"
+    },
+    "Rocha2024ices": {
+      "citation_count": 138,
+      "bibcode": "2024A&A...683A.124R",
+      "ads_url": "https://scixplorer.org/abs/2024A%26A...683A.124R/abstract"
+    },
+    "Slavicinska2024hdo": {
+      "citation_count": 35,
+      "bibcode": "2024A&A...688A..29S",
+      "ads_url": "https://scixplorer.org/abs/2024A%26A...688A..29S/abstract"
+    },
+    "Slavicinska2025hdo": {
+      "citation_count": 17,
+      "bibcode": "2025ApJ...986L..19S",
+      "ads_url": "https://scixplorer.org/abs/2025ApJ...986L..19S/abstract"
+    },
+    "Tychoniec2021diagnostics": {
+      "citation_count": 118,
+      "bibcode": "2021A&A...655A..65T",
+      "ads_url": "https://scixplorer.org/abs/2021A%26A...655A..65T/abstract"
+    },
+    "Tychoniec2024joys": {
+      "citation_count": 44,
+      "bibcode": "2024A&A...687A..36T",
+      "ads_url": "https://scixplorer.org/abs/2024A%26A...687A..36T/abstract"
+    },
+    "Tychoniec2026": {
+      "citation_count": 2,
+      "bibcode": "2026A&A...710A.370T",
+      "ads_url": "https://scixplorer.org/abs/2026A%26A...710A.370T/abstract"
+    },
+    "vandishoeck2025joys": {
+      "citation_count": 47,
+      "bibcode": "2025A&A...699A.361V",
+      "ads_url": "https://scixplorer.org/abs/2025A%26A...699A.361V/abstract"
+    },
+    "vangelder2024joys": {
+      "citation_count": 33,
+      "bibcode": "2024A&A...692A.197V",
+      "ads_url": "https://scixplorer.org/abs/2024A%26A...692A.197V/abstract"
+    },
+    "vangelder2024so2": {
+      "citation_count": 31,
+      "bibcode": "2024A&A...682A..78V",
+      "ads_url": "https://scixplorer.org/abs/2024A%26A...682A..78V/abstract"
+    }
+  }
+}

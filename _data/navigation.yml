@@ -1,0 +1,12 @@
+main:
+  - title: "About"
+    url: /
+  - title: "Research"
+    url: /research/
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /cv/
+  # Restore this entry when the Gallery is ready to publish.
+  # - title: "Gallery"
+  #   url: /gallery/

@@ -1,0 +1,47 @@
+# Generated website and build caches
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+
+# Local dependencies (keep Gemfile.lock for reproducible builds)
+/vendor/
+/.bundle/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Personal source material, validation screenshots, and local working files
+/_docs/
+/local/
+/tmp/
+/output/
+
+# Unpublished Gallery: preserve these files locally until it is ready
+/_pages/gallery.html
+/_data/gallery.yml
+/images/gallery/
+/assets/js/gallery.js
+
+# Unused portrait alternatives (the selected undergraduate portrait is included)
+/images/profile-original.jpeg
+/images/profile-phd-outdoor.jpeg
+/images/profile.svg
+
+# Machine-specific editor settings, OS files, and temporary backups
+.vscode/
+.idea/
+.DS_Store
+._*
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example

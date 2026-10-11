@@ -1,0 +1,34 @@
+---
+title: "JWST Observations of Young protoStars (JOYS): Overview of program and early results"
+bibkey: "vandishoeck2025joys"
+date: "2025-07-01"
+date_precision: "month"
+venue: "Astronomy & Astrophysics"
+authors: "van Dishoeck, E. F.; Tychoniec, Ł.; Rocha, W. R. M.; Slavicinska, K.; Francis, L.; van Gelder, M. L.; Ray, T. P.; Beuther, H.; Caratti o Garatti, A.; Brunken, N. G. C.; Chen, Y.; Devaraj, R.; Geers, V. C.; Gieser, C.; Greene, T. P.; Justtanont, K.; Le Gouellec, V. J. M.; Kavanagh, P. J.; Klaassen, P. D.; Janssen, A. G. M.; Navarro, M. G.; Nazari, P.; Notsu, S.; Perotti, G.; Ressler, M. E.; Reyes, S. D.; Sellek, A. D.; Tabone, B.; Tap, C.; Theijssen, N. C. M. A.; Colina, L.; Güdel, M.; Henning, Th.; Lagage, P.-O.; Östlin, G.; Vandenbussche, B.; Wright, G. S."
+first_author: false
+featured: false
+volume: "699"
+article_number: "A361"
+doi: "10.1051/0004-6361/202554444"
+adsurl: "https://ui.adsabs.harvard.edu/abs/2025A%26A...699A.361V/abstract"
+status: "published"
+paperurl: "https://www.aanda.org/articles/aa/pdf/2025/07/aa54444-25.pdf"
+---
+
+{% include publication-authors.html authors=page.authors %}
+
+*Astronomy & Astrophysics* · 2025, 699, A361
+
+{% include publication-links.html paper=page %}
+
+## Abstract
+
+**Context.** The embedded phase of star formation is a crucial period in the development of a young star when the system still accretes matter, emerges from its natal cloud with assistance from powerful jets and outflows, and forms a disk, thus setting the stage for the birth of a planetary system. The mid-infrared spectral line observations now possible with unprecedented sensitivity, spectral resolution, and sharpness from the <em>James Webb Space Telescope</em> (JWST) are key for probing many of the physical and chemical processes on subarcsecond scales that occur in highly extincted regions. They provide unique diagnostics and complement millimeter observations.
+
+**Aims.** The aim of the JWST Observations of Young protoStars (JOYS) program is to address a wide variety of topics ranging from protostellar accretion and the nature of primeval jets, winds, and outflows to the chemistry of gas and ice in hot cores and cold dense protostellar environments to the characteristics of the embedded disks. We introduce the JOYS program and show representative results.
+
+**Methods.** The JWST Mid-InfraRed Instrument (MIRI) Medium Resolution Spectrometer (MRS) Integral Field Unit (IFU) $\mathdefault{5-28\,\mu m}$ maps of 17 low-mass targets (23 if binary components are counted individually) and six high-mass protostellar sources were taken with resolving powers $\mathdefault{R = \lambda /\Delta \lambda  = 1500-4000}$. We used small mosaics ranging from 1 × 1 to 3 × 3 MRS tiles to cover ~ <em>4″</em> to 20″ fields of view, providing spectral imaging on spatial scales down to $\mathdefault{\sim\,30\,au}$ (low mass) and $\mathdefault{\sim\,600\,au}$ (high mass). For HH 211, the complete ~1′ blue outflow lobe was mapped with the MRS. Atomic lines were interpreted with published shock models, whereas molecular lines were analyzed with simple rotation diagrams and local thermodynamic equilibrium slab models. We stress the importance of taking infrared pumping into account. Inferred abundance ratios were compared with detailed hot core chemical models including X-rays, whereas ice spectra were fit through comparison with laboratory spectra.
+
+**Results.** The JWST MIRI-MRS spectra show a wide variety of features, with their spatial distribution providing key insight into their physical origin. The atomic line maps differ among refractory (e.g., Fe), semi-refractory (e.g., S), and volatile elements (e.g., Ne) and are linked to their different levels of depletion and local (shock) conditions. Jets are prominently seen in lines of [Fe II] and other refractory elements, whereas the pure rotational $\mathdefault{H\_{2}}$ lines probe hot ($\mathdefault{\sim\,1000\,K}$) and warm (few ×$\mathdefault{10^{2}}$ K) gas inside the cavity, as well as gas associated with jets, entrained outflows, and cavity walls for both low- and high-mass sources. Wide-angle winds are found in low-$\mathdefault{J}$ $\mathdefault{H\_{2}}$ lines. Nested stratified jet structures containing an inner ionized core with an outer molecular layer are commonly seen in the youngest sources. While [S I] follows the jet as seen in [Fe II] in the youngest protostars, it is different in more evolved sources, where it is concentrated on source. Noble gas lines such as [Ne II] $\mathdefault{12.8\,\mu m}$ reveal a mix of jet shock and photoionized emission. The H I recombination lines serve as a measure of protostellar accretion rates but are also associated with more extended jets. Gaseous molecular emission ($\mathdefault{CO\_{2}}$, $\mathdefault{C\_{2}H\_{2}}$, HCN, $\mathdefault{H\_{2}O}$, $\mathdefault{CH\_{4}}$, $\mathdefault{SO\_{2}}$, SiO) is seen toward several sources, but it is cool compared with what is found in more evolved disks, with excitation temperatures of only $\mathdefault{100-250\,K}$, and likely associated with the warm inner envelopes (“hot cores”). Along the outflow, $\mathdefault{CO\_{2}}$ is often extended, thus contrasting with $\mathdefault{C\_{2}H\_{2}}$, which is usually centered on source. $\mathdefault{H\_{2}O}$ emission is commonly detected on source, even if relatively weak. Off source, it is seen only in the highest density shocks, such as those associated with NGC 1333 IRAS4B. Some sources show gaseous molecular lines in absorption, including $\mathdefault{NH\_{3}}$ in one case. Deep ice features are seen toward the protostars, revealing not just the major ice components but also ions (as part of salts) and complex organic molecules, with comparable abundances from low- to high-mass sources. The relative abundances of some gas and ice species are similar, which is consistent with ice sublimation in hot cores. We present a second detection of HDO ice in a solar-mass source, with an HDO/$\mathdefault{H\_{2}O}$ ice ratio of ~0.4%, thus providing a link with HDO/$\mathdefault{H\_{2}O}$ in disks and comets. A deep search for solid $\mathdefault{O\_{2}}$ suggests that it is not a significant oxygen reservoir. Only a few embedded Class I disks show the same forest of $\mathdefault{H\_{2}O}$ lines as Class II disks. This may be due to significant dust extinction of the upper layers in young disks caused by less settling of small dust as well as radial drift bringing in fresh dust.
+
+**Conclusions.** This paper illustrates the wide range of science questions that a single MIRI-MRS IFU data set can address. Our data suggest many similarities between low- and high-mass sources. Large source samples across evolutionary stages and luminosities are needed to further develop these diagnostics of the physics and chemistry of protostellar systems.

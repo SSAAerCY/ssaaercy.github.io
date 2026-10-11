@@ -1,0 +1,7 @@
+{% assign figure = site.data.research_figures[include.id] %}
+<figure class="research-figure"{% if figure.max_width %} style="max-width: {{ figure.max_width }}px"{% endif %}>
+  <a href="{{ '/images/research/' | append: include.id | append: '.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Open Figure {{ figure.number }} from Chen et al. {{ figure.year }} at full resolution">
+    <img src="{{ '/images/research/' | append: include.id | append: '.png' | relative_url }}" alt="{{ figure.alt | escape }}" loading="lazy" decoding="async">
+  </a>
+  <figcaption><strong>Figure {{ figure.number }}.</strong> {{ figure.caption | escape }} <a href="https://doi.org/{{ figure.doi }}">Chen et al. ({{ figure.year }})</a>. Click the figure to view it at full resolution.</figcaption>
+</figure>

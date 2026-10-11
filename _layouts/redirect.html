@@ -1,0 +1,25 @@
+---
+layout: null
+---
+{% assign redirect_target = page.redirect.to %}
+{% assign origin_length = site.url | size %}
+{% assign target_origin = redirect_target | slice: 0, origin_length %}
+{% if target_origin == site.url %}
+  {% assign target_path = redirect_target | remove_first: site.url %}
+  {% assign first_character = target_path | slice: 0, 1 %}
+  {% if first_character == '/' %}{% assign redirect_target = target_path %}{% endif %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="{{ site.locale | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <link rel="canonical" href="{{ page.redirect.to | escape }}">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ redirect_target | escape }}">
+  <script>window.location.replace({{ redirect_target | jsonify }});</script>
+</head>
+<body>
+  <p>Redirecting to the project page… <a href="{{ redirect_target | escape }}">Continue</a></p>
+</body>
+</html>

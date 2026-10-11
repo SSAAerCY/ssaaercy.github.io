@@ -1,0 +1,8 @@
+{% assign related_papers = site.publications | where: 'bibkey', include.bibkey %}
+{% for paper in related_papers %}
+<div class="research-publication">
+  <span class="item-label">Chen et al. {{ paper.date | date: '%Y' }} · {{ paper.venue | escape }}, {{ paper.volume | escape }}, {{ paper.article_number | escape }}</span>
+  <p><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></p>
+  {% include publication-links.html paper=paper %}
+</div>
+{% endfor %}

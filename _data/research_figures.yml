@@ -1,0 +1,68 @@
+chen2026-fig3:
+  year: 2026
+  number: 3
+  doi: "10.3847/2041-8213/ae7a70"
+  caption: "Correlations between integrated ice-band areas, compared with laboratory HCOO⁻ mixtures."
+  alt: "Three scatter plots comparing the integrated areas of the 7.24, 7.40, and 7.67 micron absorption bands with laboratory measurements."
+chen2026-fig4:
+  year: 2026
+  number: 4
+  doi: "10.3847/2041-8213/ae7a70"
+  caption: "Peak wavelengths and band widths in protostellar spectra and laboratory ice analogs."
+  alt: "Four panels comparing peak wavelength and full width at half maximum for four ice bands in observations and laboratory mixtures."
+chen2025-fig5:
+  year: 2025
+  number: 5
+  doi: "10.1051/0004-6361/202453389"
+  caption: "CH₃OH-normalized abundances of two- and three-carbon oxygen-bearing molecules in low- and high-mass protostars."
+  alt: "A bar chart comparing eight oxygen-bearing molecule abundances relative to CH3OH in low-mass and high-mass protostars."
+chen2025-fig7:
+  year: 2025
+  number: 7
+  doi: "10.1051/0004-6361/202453389"
+  max_width: 600
+  caption: "Proposed CH₃COCH₃ formation pathways from chemical models, theoretical calculations, and laboratory experiments."
+  alt: "A chemical reaction network linking CH3COCH3 to CH3CHO, CH2CO, C2H5CHO, CH3CH=CH2, and related species."
+chen2025-fig8:
+  year: 2025
+  number: 8
+  doi: "10.1051/0004-6361/202453389"
+  caption: "CH₃COCH₃ abundance ratios relative to CH₃CHO, CH₂CO, C₂H₅CHO, and CH₃CCH, compared with chemical models."
+  alt: "Four scatter plots of CH3COCH3 column-density ratios versus source luminosity, with observed and modeled ratios."
+chen2024-fig1:
+  year: 2024
+  number: 1
+  doi: "10.1051/0004-6361/202450706"
+  caption: "Chemical evolution on dust grains through protostellar stages and the complementary ALMA/JWST views. The schematic was adapted in Chen et al. (2024) from van 't Hoff (2019) and Herbst & van Dishoeck (2009)."
+  alt: "A schematic of dust-grain ice evolution from cloud to protostar, showing changing ice layers and the regions probed by ALMA gas emission and JWST absorption."
+chen2024-fig7:
+  year: 2024
+  number: 7
+  doi: "10.1051/0004-6361/202450706"
+  caption: "The complex-ice fingerprint spectra of IRAS 2A and B1-c, with a laboratory-based decomposition of the B1-c spectrum."
+  alt: "JWST ice spectra of IRAS 2A and B1-c above a colored molecular decomposition and residual spectrum for B1-c."
+chen2024-fig9:
+  year: 2024
+  number: 9
+  doi: "10.1051/0004-6361/202450706"
+  caption: "A comparison of four organic-molecule ratios relative to CH₃OH in the ice and gas phases."
+  alt: "Four plots comparing gas-phase molecule ratios with shaded ice-phase ratios for CH3OCHO, CH3OCH3, CH3CHO, and C2H5OH."
+chen2024-fig10:
+  year: 2024
+  number: 10
+  doi: "10.1051/0004-6361/202450706"
+  max_width: 600
+  caption: "How molecular spatial distributions and observing geometry can affect ALMA gas and JWST ice measurements."
+  alt: "Two diagrams showing ALMA sampling a compact hot core and JWST sampling ices along a line of sight through the envelope."
+chen2023-fig2:
+  year: 2023
+  number: 2
+  doi: "10.1051/0004-6361/202346491"
+  caption: "An overview of the ALMA spectra of 14 high-mass CoCCoA sources."
+  alt: "Fourteen vertically offset ALMA spectra spanning 258.0 to 261.7 GHz, showing the line-rich chemistry of CoCCoA sources."
+chen2023-fig4:
+  year: 2023
+  number: 4
+  doi: "10.1051/0004-6361/202346491"
+  caption: "CH₃OH-normalized column densities of six oxygen-bearing molecules across low- and high-mass protostars, compared with chemical models."
+  alt: "Six scatter plots of organic-molecule ratios versus bolometric luminosity, comparing low-mass and high-mass sources with model predictions."

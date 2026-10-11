@@ -1,0 +1,9 @@
+{% assign metadata_paper = include.paper %}
+{% assign metadata_metrics = site.data.citation_metrics.papers[metadata_paper.bibkey] %}
+{% assign metadata_journal = site.data.journal_abbreviations[metadata_paper.venue] | default: metadata_paper.venue %}
+{% assign metadata_date = metadata_paper.date | date: '%Y' %}
+{% if metadata_paper.date_precision == 'month' or metadata_paper.date_precision == 'day' %}{% assign metadata_date = metadata_paper.date | date: '%b %Y' %}{% endif %}
+<div class="publication-meta">
+  <span class="item-label">{% if include.author_label %}{{ include.author_label | escape }} {% endif %}{{ metadata_date }} · {{ metadata_journal | escape }}{% if metadata_paper.volume %} · {{ metadata_paper.volume | escape }}{% endif %}{% if metadata_paper.article_number %}, {{ metadata_paper.article_number | escape }}{% endif %}</span>
+  {% if metadata_metrics.citation_count != nil %}<span class="publication-citations">{{ metadata_metrics.citation_count }} {% if metadata_metrics.citation_count == 1 %}citation{% else %}citations{% endif %}</span>{% endif %}
+</div>

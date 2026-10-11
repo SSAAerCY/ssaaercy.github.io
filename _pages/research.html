@@ -1,0 +1,40 @@
+---
+title: "Research"
+permalink: /research/
+excerpt: "Complex organic molecules, interstellar ices, and the connection between ice and gas."
+research_carousels: true
+---
+
+<p>I study the formation and evolution of complex organic molecules in star-forming regions, using infrared and millimeter observations alongside chemical modeling.</p>
+{% assign paper_studies = site.portfolio | where: 'kind', 'paper' %}
+{% for project in site.data.research_projects %}
+<section class="research-project" data-project="{{ project.id }}" aria-labelledby="project-{{ project.id }}">
+  <header class="research-project-header">
+    <h2 class="research-project-title" id="project-{{ project.id }}"><a href="{{ project.overview | relative_url }}">{{ project.title | escape }}{% if project.expanded_name %}: {{ project.expanded_name | escape }}{% endif %}</a></h2>
+    {% include project-program-meta.html project=project %}
+    <div class="research-project-summary">{{ project.description | markdownify }}</div>
+  </header>
+  {% assign studies = paper_studies | where: 'project', project.id | sort: 'order' %}
+  {% if studies.size > 0 %}
+  <div class="research-grid">
+  {% for study in studies %}
+  {% assign matching_papers = site.publications | where: 'bibkey', study.bibkey %}
+  {% assign paper = matching_papers | first %}
+  {% assign study_journal = site.data.journal_abbreviations[paper.venue] | default: paper.venue %}
+  <article class="research-card" data-paper="{{ study.bibkey }}">
+    <div class="research-card-heading">
+      <span class="item-label">Chen et al. {{ paper.date | date: '%Y' }} · {{ study_journal | escape }}{% if paper.volume %} {{ paper.volume | escape }}{% endif %}{% if paper.article_number %}, {{ paper.article_number | escape }}{% endif %}</span>
+      <h3><a href="{{ study.url | relative_url }}">{{ study.title | escape }}</a></h3>
+    </div>
+    {% include research-carousel.html study=study %}
+    <p class="research-card-summary">{{ study.excerpt | strip_html }}</p>
+    <div class="research-card-links">
+      <a class="text-link" href="{{ study.url | relative_url }}">Read study <span aria-hidden="true">→</span></a>
+      {% include publication-links.html paper=paper %}
+    </div>
+  </article>
+  {% endfor %}
+  </div>
+  {% endif %}
+</section>
+{% endfor %}

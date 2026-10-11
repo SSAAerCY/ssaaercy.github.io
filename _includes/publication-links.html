@@ -1,0 +1,8 @@
+{% assign paper = include.paper %}
+{% assign pdf = paper.paperurl %}
+<div class="publication-links">
+  {% if pdf %}<a href="{% if pdf contains '://' %}{{ pdf }}{% else %}{{ pdf | relative_url }}{% endif %}">Paper <span aria-hidden="true">↗</span></a>{% endif %}
+  {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">DOI</a>{% endif %}
+  {% if paper.adsurl %}<a href="{{ paper.adsurl }}">ADS</a>{% endif %}
+  {% if paper.arxiv and paper.status == 'in press' %}<a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv</a>{% endif %}
+</div>

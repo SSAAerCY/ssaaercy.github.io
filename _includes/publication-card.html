@@ -1,0 +1,6 @@
+<article class="publication-card">
+  {% include publication-meta.html paper=paper %}
+  <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
+  <p class="publication-authors">{% include publication-authors.html authors=paper.authors %}</p>
+  {% include publication-links.html paper=paper %}
+</article>

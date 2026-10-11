@@ -1,0 +1,4 @@
+{% assign program_project = include.project %}
+{% if program_project.pi or program_project.program_ids %}
+<p class="project-program-meta">{% if program_project.pi %}PI: <strong>{{ program_project.pi | escape }}</strong>{% endif %}{% if program_project.pi and program_project.program_ids %} · {% endif %}{{ program_project.program_ids | escape }}</p>
+{% endif %}

@@ -1,0 +1,13 @@
+<span class="publication-author-list">
+{%- assign highlighted_author_names = 'Chen, Y.|Chen, Yuan' | split: '|' -%}
+{%- assign publication_author_names = include.authors | split: ';' -%}
+{%- for publication_author in publication_author_names -%}
+  {%- assign publication_author_name = publication_author | strip -%}
+  {%- unless forloop.first -%}{{ '; ' }}{%- endunless -%}
+  {%- if highlighted_author_names contains publication_author_name -%}
+    <strong>{{ publication_author_name | escape }}</strong>
+  {%- else -%}
+    {{ publication_author_name | escape }}
+  {%- endif -%}
+{%- endfor -%}
+</span>
