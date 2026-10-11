@@ -8,14 +8,24 @@
 
 {% assign seo_title = page.seo_title | default: page.title %}
 {% if seo_title %}
+  {% unless page.seo_title %}
+    {% assign seo_title = seo_title | markdownify %}
+  {% endunless %}
+  {% assign seo_title = seo_title | strip_html | strip_newlines | strip %}
   {% unless page.append_site_title == false %}
     {% assign seo_title = seo_title | append: " " | append: site.title_separator | append: " " | append: site.title %}
   {% endunless %}
 {% endif %}
 
 {% if seo_title %}
-  {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
+  {% assign seo_title = seo_title | escape_once %}
 {% endif %}
+
+{% assign seo_share_title = page.seo_title | default: page.title | default: site.title %}
+{% unless page.seo_title %}
+  {% assign seo_share_title = seo_share_title | markdownify %}
+{% endunless %}
+{% assign seo_share_title = seo_share_title | strip_html | strip_newlines | strip | escape_once %}
 
 {% if site.url %}
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
@@ -122,7 +132,7 @@
 <!-- Open Graph protocol data (https://ogp.me/), used by social media -->
 <meta property="og:locale" content="{{ site.locale | default: "en" }}">
 <meta property="og:site_name" content="{{ site.title }}"> 
-<meta property="og:title" content="{{ page.seo_title | default: page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+<meta property="og:title" content="{{ seo_share_title }}">
 {% if page.date %}
   <meta property="og:type" content="article">
 {% endif %}
