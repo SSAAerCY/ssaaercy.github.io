@@ -44,6 +44,10 @@ python3 -m http.server 4000 --bind 127.0.0.1 --directory _site
 
 ## GitHub Pages
 
+保存并检查本地预览后，双击 **`publish.command`** 即可上传更新。它会获取远端状态，遵守 `.gitignore`，检查文件大小，并在本地 Ruby 环境可用时构建实际将上传的源码；随后自动创建带时间的提交并推送。无需关闭 `preview.command` 的窗口。
+
+终端显示“源码已上传”后，GitHub Actions 会自动构建和发布。等 [Actions](https://github.com/SSAAerCY/ssaaercy.github.io/actions) 中 build 和 deploy 都成功，再刷新正式网页。没有新修改时不会创建空提交；上次上传失败但已经提交的内容可再次双击重试。若远端有新提交或构建失败，脚本会停止，并保留本地修改，不会强制覆盖 GitHub。
+
 新版源码的目标仓库为 `ssaaercy/ssaaercy.github.io`。上传源码后，在 **Settings → Pages → Source** 选择 **GitHub Actions**。工作流 `.github/workflows/pages.yml` 会在提交到 `main` 或 `master` 后构建并发布。
 
 上传源码时保留 `Gemfile.lock`，不要上传 `_site/`、`.bundle/`、`.venv/` 等缓存或临时环境。详细迁移步骤见维护指南。
@@ -51,5 +55,11 @@ python3 -m http.server 4000 --bind 127.0.0.1 --directory _site
 `.gitignore` 已排除构建缓存、本地环境、`_docs/`、暂不公开的 Gallery 和未使用的头像备选；主题的 `_includes/`、`_layouts/`、`_sass/`、字体和脚本仍然是网站运行所需的源码，应当保留。正式的 CV、博士论文 PDF、研究图和当前头像会上传。
 
 Gallery 准备好后，在本地取消 `_data/navigation.yml` 最后的导航注释，再从 `_config.yml` 的 `exclude` 和 `.gitignore` 中移除 Gallery 的四个对应条目，重启预览并检查后再提交。`.gitignore` 控制 Git 上传，`_config.yml` 的 `exclude` 控制网页发布，两者作用不同。
+
+## 搜索引擎
+
+首页标题和描述包含 Yuan Chen、陈缘、astronomy 和 astrochemistry；`_includes/profile-schema.html` 将姓名与 ORCID、Google Scholar 联系起来，并标注个人主页与站点名称。`robots.txt` 指向自动生成的 `sitemap.xml`。这些信息帮助搜索引擎识别网站，收录及排名仍由搜索引擎决定。
+
+首次申请收录时，在 Google Search Console 添加 URL 前缀 `https://ssaaercy.github.io/`。选择 HTML 标签验证，把其 `content` 中的验证码写入 `_config.yml` 的 `google_site_verification`，运行 `publish.command` 上传并等待部署后再验证。随后提交 `sitemap.xml`，并在网址检查中对首页请求编入索引。也可把主页地址加到 Google Scholar、ORCID 和机构个人介绍中。
 
 模板来源和版本见 [UPSTREAM.md](UPSTREAM.md)。

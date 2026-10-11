@@ -1,8 +1,9 @@
 ---
 title: "Yuan Chen 陈缘"
+seo_title: "Yuan Chen 陈缘 | Astronomy & Astrochemistry"
 append_site_title: false
 permalink: /
-excerpt: "Astrochemistry from interstellar ices to complex organic molecules."
+excerpt: "Yuan Chen (陈缘), astronomer and postdoctoral researcher at MPE, studying astrochemistry, star formation, and interstellar ices with JWST and ALMA."
 redirect_from:
   - /about/
 ---

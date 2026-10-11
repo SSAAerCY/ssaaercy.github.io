@@ -1,0 +1,42 @@
+{% assign profile_home_url = '/' | absolute_url %}
+{% assign profile_description = page.description | default: page.excerpt | default: site.description | markdownify | strip_html | strip_newlines | strip %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ '/#person' | absolute_url | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "alternateName": {{ site.author.name_zh | jsonify }},
+      "url": {{ profile_home_url | jsonify }},
+      "description": {{ profile_description | jsonify }},
+      "jobTitle": {{ site.author.bio | jsonify }},
+      "affiliation": {
+        "@type": "Organization",
+        "name": {{ site.author.employer | jsonify }}
+      },
+      "knowsAbout": ["Astronomy", "Astrochemistry", "Star formation", "Interstellar ices", "Complex organic molecules"],
+      "sameAs": [{{ site.author.orcid | jsonify }}, {{ site.author.googlescholar | jsonify }}]
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ '/#website' | absolute_url | jsonify }},
+      "name": {{ site.name | jsonify }},
+      "alternateName": {{ page.title | jsonify }},
+      "url": {{ profile_home_url | jsonify }},
+      "description": {{ profile_description | jsonify }},
+      "inLanguage": {{ site.locale | jsonify }},
+      "publisher": {"@id": {{ '/#person' | absolute_url | jsonify }}}
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": {{ '/#profile' | absolute_url | jsonify }},
+      "url": {{ profile_home_url | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "mainEntity": {"@id": {{ '/#person' | absolute_url | jsonify }}},
+      "isPartOf": {"@id": {{ '/#website' | absolute_url | jsonify }}}
+    }
+  ]
+}
+</script>
