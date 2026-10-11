@@ -1,0 +1,29 @@
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  // Restore the theme before any external stylesheet or page content loads.
+  (function () {
+    var theme;
+    try {
+      theme = localStorage.getItem('theme');
+    } catch (error) {
+      // Fall back to the system preference if browser storage is unavailable.
+    }
+    if (theme !== 'dark' && theme !== 'light') {
+      theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    if (theme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+  })();
+</script>
+{% comment %}Reuse the theme palettes so the initial canvas matches the full stylesheet.{% endcomment %}
+{% capture initial_theme_styles %}
+@import "theme/{{ site.site_theme | default: 'default' | append: '_light' }}";
+@import "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}";
+html { background-color: var(--global-bg-color); color: var(--global-text-color); color-scheme: light; }
+html[data-theme="dark"] { color-scheme: dark; }
+body { background-color: var(--global-bg-color); color: var(--global-text-color); }
+{% endcapture %}
+<style id="initial-theme">{{ initial_theme_styles | scssify }}</style>

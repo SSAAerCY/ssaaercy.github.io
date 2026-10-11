@@ -60,6 +60,8 @@ Gallery 准备好后，在本地取消 `_data/navigation.yml` 最后的导航注
 
 首页标题和描述包含 Yuan Chen、陈缘、astronomy 和 astrochemistry；`_includes/profile-schema.html` 将姓名与 ORCID、Google Scholar 联系起来，并标注个人主页与站点名称。`robots.txt` 指向自动生成的 `sitemap.xml`。这些信息帮助搜索引擎识别网站，收录及排名仍由搜索引擎决定。
 
+首页的链接预览简介在 `_pages/about.md` 顶部的 `excerpt`，浏览器标题在 `seo_title`；全站默认简介在 `_config.yml` 的 `description`。修改正文不会自动修改这些字段。
+
 首次申请收录时，在 Google Search Console 添加 URL 前缀 `https://ssaaercy.github.io/`。选择 HTML 标签验证，把其 `content` 中的验证码写入 `_config.yml` 的 `google_site_verification`，运行 `publish.command` 上传并等待部署后再验证。随后提交 `sitemap.xml`，并在网址检查中对首页请求编入索引。也可把主页地址加到 Google Scholar、ORCID 和机构个人介绍中。
 
 模板来源和版本见 [UPSTREAM.md](UPSTREAM.md)。
