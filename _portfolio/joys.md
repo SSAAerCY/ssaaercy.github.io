@@ -8,7 +8,16 @@ order: 2
 excerpt: "Within JOYS and its JOYS+ ice studies, I investigate the molecular inventories of young stellar systems and the connection between complex ices and gas."
 image: "/images/research/chen2026-fig3.png"
 image_alt: "Correlations between protostellar ice bands, compared with laboratory ice measurements."
+project_website: "https://miri.strw.leidenuniv.nl/"
+project_logo: "/images/research/joys-logo.png"
 ---
+
+<div class="project-resource">
+  <a class="project-resource-logo" href="{{ page.project_website }}" aria-label="Visit the JOYS project website">
+    <img src="{{ page.project_logo | relative_url }}" alt="JOYS: JWST Observations of Young protoStars" width="1147" height="1245">
+  </a>
+  <a href="{{ page.project_website }}">Visit the JOYS project website <span aria-hidden="true">↗</span></a>
+</div>
 
 I contribute to **JOYS**, a collaborative program exploring the environments of young stars with JWST. My work within JOYS and the JOYS+ ice studies focuses on complex organic molecules, combining infrared ice spectroscopy, laboratory measurements, and complementary ALMA gas observations. Together, these approaches trace the chemical inventory of protostars and test how it evolves between the solid and gas phases.
 
