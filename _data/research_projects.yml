@@ -2,12 +2,14 @@
   title: "ICEBEAR"
   expanded_name: "Investigating Chemical Evolution Between icE and gAs in massive protostaRs"
   pi: "Yuan Chen"
-  program_ids: "JWST GO 8887 (Cycle 4)"
+  program_ids: "JWST GO 8887 (Cycle 4) · ALMA 2025.1.01411.S (Cycle 12)"
   overview: "/research/icebear/"
   description: |-
     ICEBEAR is a JWST program that I lead as principal investigator (PI). It is designed to compare complex organic molecules in the ice and gas of 15 high-mass protostars. These sources were selected from existing ALMA surveys because they have rich gas-phase molecular spectra and are suitable for JWST's mid-infrared spectroscopy. The project extends ice–gas comparisons that have so far focused mainly on low- and intermediate-mass protostars to the environments in which massive stars form.
 
     With JWST/MIRI-MRS, we look for the weak absorption features of complex organic ices and compare their abundances with gas measurements in the same sources. This lets us investigate how chemistry in icy grain mantles is carried into the warm gas as the ices sublimate, and which molecules undergo further processing. By following molecules across this transition, ICEBEAR aims to clarify how the chemical inventory of massive protostars is built and evolves.
+
+    The ALMA Cycle 12 follow-up program, 2025.1.01411.S, will extend these comparisons to simpler molecules such as $\mathdefault{H\_{2}CO}$, $\mathdefault{HNCO}$, and $\mathdefault{HCOOH}$ and their chemically related ice reservoirs. It will also combine JWST rovibrational spectra with ALMA rotational lines of $\mathdefault{SO\_{2}}$, $\mathdefault{SiO}$, $\mathdefault{CS}$, and $\mathdefault{HCN}$ to investigate infrared pumping and the roles of radiation and collisions in exciting molecular gas.
 
     Beyond the COM ice–gas comparison, ICEBEAR's full mid-infrared spectra offer a broader view of the environments in which massive stars form. Molecular and atomic lines can probe warm gas, shocks, and ionization, while their spatial distributions may help distinguish emission close to the protostars from that along nearby jets and outflow cavities within the observed fields. Stronger ice bands provide opportunities to measure abundant ice species, such as $\mathdefault{H\_{2}O}$ and $\mathdefault{CO\_{2}}$, and investigate their thermal processing. Silicate features and the dust continuum can also constrain extinction and dust properties. Together with simultaneous MIRI imaging of the surrounding star-forming regions, these diagnostics can help place the molecular chemistry in its physical context and explore how local conditions influence the observed gas and ice.
 
