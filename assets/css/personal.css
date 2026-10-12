@@ -70,6 +70,22 @@ html[data-theme="dark"] {
 .publication-authors { font-size: .8em; line-height: 1.65; color: var(--global-text-color); margin: 0 0 .75em; }
 .publication-author-list { color: var(--global-text-color); }
 .publication-links { display: flex; flex-wrap: wrap; gap: .5em 1.25em; font-size: .78em; }
+.publication-research-link { margin: 1em 0 1.5em; }
+.page__content .research-study-link {
+  display: inline-block;
+  max-width: 100%;
+  padding: .55em .85em;
+  border: 1px solid currentColor;
+  border-radius: .25em;
+  color: var(--global-link-color);
+  background: transparent;
+  font-size: .9em;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.page__content .research-study-link:hover { color: var(--global-link-color-hover); }
+.page__content .research-study-link:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 .research-grid { display: grid; gap: 1.3em; margin: 2em 0; }
 .research-project { margin: 2.5em 0 3em; }
 .research-project-header { border-top: 2px solid var(--personal-secondary-accent); padding-top: 1em; }

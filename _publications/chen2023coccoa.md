@@ -21,6 +21,8 @@ paperurl: "https://www.aanda.org/articles/aa/pdf/2023/10/aa46491-23.pdf"
 
 {% include publication-links.html paper=page %}
 
+{% include publication-research-link.html paper=page %}
+
 ## Abstract
 
 **Context.** Complex organic molecules (COMs), especially the oxygen-bearing species, have been observed to be abundant in the gas phase toward low-mass and high-mass protostars. Deep line surveys have been carried out only for a limited number of well-known star-forming regions using the Atacama Large Millimeter/submillimeter Array (ALMA), which has unprecedented resolution and sensitivity, and statistical studies on oxygen-bearing COMs (O-COMs) in a large sample of high-mass protostars using ALMA are still lacking.

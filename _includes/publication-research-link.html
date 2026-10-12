@@ -1,0 +1,5 @@
+{% assign linked_studies = site.portfolio | where: 'kind', 'paper' | where: 'bibkey', include.paper.bibkey %}
+{% assign linked_study = linked_studies | first %}
+{% if linked_study %}
+<p class="publication-research-link"><a class="research-study-link" href="{{ linked_study.url | relative_url }}">Explore this study: key figures &amp; findings <span aria-hidden="true">→</span></a></p>
+{% endif %}

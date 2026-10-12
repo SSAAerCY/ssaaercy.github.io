@@ -21,6 +21,8 @@ paperurl: "https://www.aanda.org/articles/aa/pdf/2024/10/aa50706-24.pdf"
 
 {% include publication-links.html paper=page %}
 
+{% include publication-research-link.html paper=page %}
+
 ## Abstract
 
 **Context.** A rich inventory of complex organic molecules (COMs) has been observed in high abundances in the gas phase toward Class 0 protostars. It has been suggested that these molecules are formed in ices and sublimate in the warm inner envelope close to the protostar. However, only the most abundant COM, $\mathdefault{CH\_{3}OH}$, had been firmly detected in ices before the era of the <em>James Webb</em> Space Telescope (JWST). Now, it is possible to detect the interstellar ices of other COMs and constrain their ice column densities quantitatively.

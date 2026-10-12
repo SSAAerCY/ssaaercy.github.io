@@ -49,13 +49,17 @@ To assess how widespread weak complex-ice features are in young stellar systems,
 
 ### From band strengths to molecular carriers
 
-The $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ bands occur together and have strongly correlated integrated strengths, motivating a comparison with laboratory spectra to test whether both features can be explained by a single ice species.
+The $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ bands appear together in most of the observed Class 0 and Class 0/I protostars, and their integrated areas are strongly correlated. This provides strong evidence for a contribution from $\mathdefault{HCOO^{-}}$ ice, which has two absorption bands near these wavelengths. Their co-occurrence and correlated strengths support a shared carrier, while comparisons with laboratory spectra test whether that carrier can account for the full observed absorption.
+
+Figure 3 separates two complementary pieces of evidence. The left panel compares the two weak bands directly and includes new laboratory measurements of $\mathdefault{HCOO^{-}}$ in different ice mixtures. The middle and right panels compare each weak band with the stronger $\mathdefault{CH\_{4}}$ band at $\mathdefault{7.67\,\mu m}$. All three band areas increase together, suggesting that they are common tracers of ice reservoirs in protostellar envelopes. Weak bands may therefore fall below the detection threshold when ice column densities or signal-to-noise ratios are low, rather than being absent because a source has no such ice reservoir.
+
+The laboratory comparison in the left panel indicates that the tested $\mathdefault{HCOO^{-}}$ ice mixtures do not fully reproduce the observed band-area ratios. In the laboratory mixtures, its longer-wavelength band is stronger relative to the $\mathdefault{7.24\,\mu m}$ band than it is in the observations. The excess relative absorption at $\mathdefault{7.24\,\mu m}$ points to additional contributors, such as $\mathdefault{C\_{2}H\_{5}OH}$. The correlations therefore support $\mathdefault{HCOO^{-}}$ ice, while the band-area ratios suggest overlapping contributions from other species.
 
 {% include research-figure.html id="chen2026-fig3" %}
 
 ### What the band profiles reveal
 
-Although the $\mathdefault{CH\_{4}}$ band at $\mathdefault{7.67\,\mu m}$ has remarkably uniform peak wavelengths and widths across the sample, the other bands vary more between sources. Laboratory comparisons favor $\mathdefault{HCOO^{-}}$ as the main carrier of the $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ features, but $\mathdefault{HCOO^{-}}$ alone cannot reproduce their intensity ratios. Contributions from other species, including $\mathdefault{C\_{2}H\_{5}OH}$ and $\mathdefault{CH\_{3}CHO}$, therefore remain relevant.
+Figure 4 provides a second test by comparing the peak wavelengths and widths of the observed bands with laboratory ice analogs. The tight grouping of the $\mathdefault{CH\_{4}}$ measurements in panel (c) supports a dominant carrier in broadly similar mixing environments. The agreement at both $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ in panels (a) and (b) favors $\mathdefault{HCOO^{-}}$ mixed with $\mathdefault{H\_{2}O}$ over pure $\mathdefault{HCOO^{-}}$ ice. The larger scatter in the other features is consistent with blends, including contributions from $\mathdefault{C\_{2}H\_{5}OH}$ and $\mathdefault{CH\_{3}CHO}$, and potentially $\mathdefault{CH\_{3}COCH\_{3}}$ at $\mathdefault{7.02\,\mu m}$.
 
 {% include research-figure.html id="chen2026-fig4" %}
 

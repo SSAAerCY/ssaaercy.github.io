@@ -21,6 +21,8 @@ paperurl: "https://www.aanda.org/articles/aa/pdf/2025/04/aa53389-24.pdf"
 
 {% include publication-links.html paper=page %}
 
+{% include publication-research-link.html paper=page %}
+
 ## Abstract
 
 **Context.** $\mathdefault{CH\_{3}COCH\_{3}}$ is one of the most abundant three-carbon oxygen-bearing complex organic molecules (O-COMs) that have been detected in space. The previous detections were made in the gas phase toward star-forming regions that are chemically rich, mostly in protostellar systems. Recently, $\mathdefault{CH\_{3}COCH\_{3}}$ ice has also been reported as (tentatively) detected toward two low-mass protostars, allowing comparisons in $\mathdefault{CH\_{3}COCH\_{3}}$ abundances between gas and ice. The detection of $\mathdefault{CH\_{3}COCH\_{3}}$ ice warrants a more systematic study of its gaseous abundances which is currently lacking.
