@@ -5,44 +5,44 @@ title: "CoCCoA"
 expanded_name: "Complex Chemistry in hot Cores with ALMA"
 tagline: "ALMA · Hot-core chemistry"
 order: 3
-excerpt: "Through the CoCCoA survey, I study oxygen-bearing organic molecules in high-mass protostars and use chemical models to explore their origins and evolution."
+excerpt: "In the CoCCoA survey, I measure oxygen-bearing organic molecules in high-mass protostars and compare their abundances across sources and with chemical models."
 image: "/images/research/chen2025-fig7.png"
 image_alt: "A reaction network illustrating CH3COCH3 formation pathways and its connections to other organic molecules."
 ---
 
-**CoCCoA** is an ALMA survey of hot cores around forming massive stars, designed to investigate the rich chemistry of these warm molecular environments. My work within the survey combines molecular spectroscopy and abundance comparisons with laboratory and theoretical constraints to examine how organic chemistry varies between sources and evolves between the ice and gas phases.
+**CoCCoA** is an ALMA survey of hot cores, the warm molecular regions around forming massive stars. I use its spectra to measure organic molecules and compare their abundances with those in low-mass protostars. Laboratory experiments and chemical simulations help me test proposed reactions that could explain these abundances and how they change after ices enter the gas.
 
 ## Oxygen-bearing molecules across stellar masses
 
-Comparing organic-molecule abundances in low- and high-mass protostars lets us investigate whether stars of different masses share a similar chemical starting point. The CoCCoA survey provides a statistical sample of hot cores, the warm molecular regions around forming massive stars, for this comparison. In my 2023 study, I measured six oxygen-bearing complex organic molecules in 14 high-mass protostellar sources and compared their abundances with five low-mass protostars from the literature.
+Stars of different masses may inherit similar organic molecules from their parent clouds. To test this possibility, my 2023 study compared six oxygen-bearing complex organic molecules in 14 high-mass CoCCoA sources with measurements of five low-mass protostars from the literature.
 
-### Turning rich spectra into molecular inventories
+### Measuring molecular abundances
 
-By modeling the dense forest of molecular lines in the ALMA spectra, I constrained column densities and excitation temperatures for $\mathdefault{CH\_{3}CHO}$, $\mathdefault{C\_{2}H\_{5}OH}$, $\mathdefault{CH\_{3}OCH\_{3}}$, $\mathdefault{CH\_{3}OCHO}$, $\mathdefault{CH\_{2}OHCHO}$, and $\mathdefault{(CH\_{2}OH)\_{2}}$. Because the main $\mathdefault{CH\_{3}OH}$ lines are often optically thick, I used its $\mathdefault{CH\_{3}^{18}OH}$ isotopologue to estimate $\mathdefault{CH\_{3}OH}$ column densities and obtain meaningful abundance ratios.
+I modeled the many overlapping molecular lines in the ALMA spectra to constrain column densities and excitation temperatures for $\mathdefault{CH\_{3}CHO}$, $\mathdefault{C\_{2}H\_{5}OH}$, $\mathdefault{CH\_{3}OCH\_{3}}$, $\mathdefault{CH\_{3}OCHO}$, $\mathdefault{CH\_{2}OHCHO}$, and $\mathdefault{(CH\_{2}OH)\_{2}}$. Because the main $\mathdefault{CH\_{3}OH}$ lines are often optically thick, I used its $\mathdefault{CH\_{3}^{18}OH}$ isotopologue to estimate the $\mathdefault{CH\_{3}OH}$ column densities used in the abundance ratios.
 
 {% include research-figure.html id="chen2023-fig2" %}
 
-### Abundance similarities and their implications
+### Similar abundances in low- and high-mass protostars
 
 Despite the sources' different luminosities and morphologies, their organic-molecule ratios relative to $\mathdefault{CH\_{3}OH}$ are broadly similar to those in low-mass protostars. $\mathdefault{CH\_{3}OCH\_{3}}$ and $\mathdefault{CH\_{3}OCHO}$ show the highest and most stable ratios, whereas the other four species exhibit greater variation.
 
 {% include research-figure.html id="chen2023-fig4" %}
 
-The similarity across stellar masses supports formation under comparable conditions, plausibly in icy grain mantles before the protostar forms. Comparisons with chemical simulations and laboratory experiments reproduce many trends, while discrepancies for molecules such as $\mathdefault{C\_{2}H\_{5}OH}$ and $\mathdefault{CH\_{2}OHCHO}$ point to additional gas-phase chemistry or differences in emitting area. These measurements establish an observational reference for testing how organic chemistry develops from cold clouds into hot cores.
+These similar ratios suggest that the molecules form under comparable conditions, plausibly in icy grain mantles before the protostar forms. Chemical simulations and laboratory experiments reproduce many of the observed trends. Discrepancies for molecules such as $\mathdefault{C\_{2}H\_{5}OH}$ and $\mathdefault{CH\_{2}OHCHO}$ could reflect additional gas-phase chemistry or differences in the areas from which the molecules emit.
 
 ## The chemical evolution of $\mathdefault{CH\_{3}COCH\_{3}}$
 
-$\mathdefault{CH\_{3}COCH\_{3}}$ is among the most abundant three-carbon oxygen-bearing molecules detected in space, yet its formation and evolution remain less explored than those of many smaller organic molecules. My 2025 CoCCoA study uses ALMA observations of 12 high-mass protostars, together with laboratory constraints and chemical simulations, to investigate how $\mathdefault{CH\_{3}COCH\_{3}}$ moves through the ice and gas phases.
+$\mathdefault{CH\_{3}COCH\_{3}}$ is among the most abundant three-carbon oxygen-bearing molecules detected in space. Its formation routes and survival after sublimation are less well understood than those of many smaller organic molecules. In my 2025 CoCCoA study, I measured it in 12 high-mass protostars and compared the results with ice measurements, laboratory experiments, and chemical simulations.
 
 ### A surprisingly abundant three-carbon molecule
 
-I modeled $\mathdefault{CH\_{3}COCH\_{3}}$ emission alongside $\mathdefault{C\_{2}H\_{5}CHO}$, $\mathdefault{CH\_{2}CO}$, and $\mathdefault{CH\_{3}CCH}$, which may be linked to its chemistry. $\mathdefault{CH\_{3}COCH\_{3}}$, $\mathdefault{CH\_{2}CO}$, and $\mathdefault{CH\_{3}CCH}$ are firmly detected throughout the sample, while $\mathdefault{C\_{2}H\_{5}CHO}$ remains tentative because unblended diagnostic lines are scarce. The observations show that $\mathdefault{CH\_{3}COCH\_{3}}$ can be more abundant than smaller aldehydes, emphasizing that molecular size alone does not determine abundance.
+I modeled $\mathdefault{CH\_{3}COCH\_{3}}$ emission alongside $\mathdefault{C\_{2}H\_{5}CHO}$, $\mathdefault{CH\_{2}CO}$, and $\mathdefault{CH\_{3}CCH}$, which may be linked to its chemistry. $\mathdefault{CH\_{3}COCH\_{3}}$, $\mathdefault{CH\_{2}CO}$, and $\mathdefault{CH\_{3}CCH}$ are firmly detected throughout the sample, while $\mathdefault{C\_{2}H\_{5}CHO}$ remains tentative because unblended diagnostic lines are scarce. Despite having an extra carbon atom, $\mathdefault{CH\_{3}COCH\_{3}}$ can be more abundant than the smaller aldehydes.
 
 {% include research-figure.html id="chen2025-fig5" %}
 
 ### Testing formation pathways
 
-The proposed chemical network connects $\mathdefault{CH\_{3}COCH\_{3}}$ to $\mathdefault{CH\_{3}CHO}$, $\mathdefault{CH\_{2}CO}$, and $\mathdefault{CH\_{3}CH{=}CH\_{2}}$ through solid-phase and gas-phase reactions. I compared the ALMA measurements with MAGICKAL simulations and with pathways suggested by theoretical calculations and laboratory experiments. This approach tests whether a candidate reaction network can reproduce the abundance relationships among chemically related species.
+Proposed solid-phase and gas-phase reactions connect $\mathdefault{CH\_{3}COCH\_{3}}$ to $\mathdefault{CH\_{3}CHO}$, $\mathdefault{CH\_{2}CO}$, and $\mathdefault{CH\_{3}CH{=}CH\_{2}}$. I compared the measured abundance ratios with MAGICKAL simulations to test these pathways, and considered other routes suggested by theoretical calculations and laboratory experiments.
 
 {% include research-figure.html id="chen2025-fig7" %}
 
@@ -52,7 +52,7 @@ The observed $\mathdefault{CH\_{3}COCH\_{3}}$ ratios relative to several related
 
 {% include research-figure.html id="chen2025-fig8" %}
 
-Together, the results motivate closer attention to $\mathdefault{CH\_{3}COCH\_{3}}$ and to reactions that may favor ketones, ethers, and esters over aldehydes. They also show how combining ice measurements, gas spectroscopy, and chemical models can expose missing formation or destruction pathways.
+The relatively high abundances of $\mathdefault{CH\_{3}COCH\_{3}}$, $\mathdefault{CH\_{3}OCH\_{3}}$, and $\mathdefault{CH\_{3}OCHO}$ suggest that some reactions may favor ketones, ethers, and esters over aldehydes. The lower aldehyde abundances could also result from more efficient destruction in the gas. Both possibilities need to be considered when interpreting the observed ratios.
 
 ## Selected publications
 
