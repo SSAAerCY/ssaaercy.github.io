@@ -21,10 +21,11 @@ research_carousels: true
   {% assign matching_papers = site.publications | where: 'bibkey', study.bibkey %}
   {% assign paper = matching_papers | first %}
   {% assign study_journal = site.data.journal_abbreviations[paper.venue] | default: paper.venue %}
+  {% assign study_card_title = paper.title | default: study.title %}
   <article class="research-card" data-paper="{{ study.bibkey }}">
     <div class="research-card-heading">
       <span class="item-label">Chen et al. {{ paper.date | date: '%Y' }} · {{ study_journal | escape }}{% if paper.volume %} {{ paper.volume | escape }}{% endif %}{% if paper.article_number %}, {{ paper.article_number | escape }}{% endif %}</span>
-      <h3><a href="{{ study.url | relative_url }}">{{ study.title | escape }}</a></h3>
+      <h3><a href="{{ study.url | relative_url }}">{{ study_card_title | escape }}</a></h3>
     </div>
     {% include research-carousel.html study=study %}
     <p class="research-card-summary">{{ study.excerpt | strip_html }}</p>

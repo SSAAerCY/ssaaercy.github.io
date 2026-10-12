@@ -8,6 +8,8 @@
     const controls = carousel.querySelector('.research-carousel-controls');
     const imageLink = carousel.querySelector('.research-card-image');
     const counter = carousel.querySelector('[data-carousel-count]');
+    const caption = carousel.querySelector('[data-carousel-caption]');
+    const captions = Array.from(carousel.querySelectorAll('[data-carousel-caption-slide]'));
     const toggle = carousel.querySelector('[data-carousel-toggle]');
     const title = carousel.getAttribute('aria-label').replace(/ images$/, '');
     const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -22,6 +24,9 @@
     function show(nextIndex) {
       index = (nextIndex + slides.length) % slides.length;
       slides.forEach((slide, slideIndex) => {
+        slide.hidden = slideIndex !== index;
+      });
+      captions.forEach((slide, slideIndex) => {
         slide.hidden = slideIndex !== index;
       });
       counter.textContent = `${index + 1}/${slides.length}`;
@@ -39,6 +44,7 @@
     function syncToggle() {
       carousel.dataset.carouselPaused = String(paused);
       counter.setAttribute('aria-live', paused ? 'polite' : 'off');
+      if (caption) caption.setAttribute('aria-live', paused ? 'polite' : 'off');
       toggle.setAttribute('aria-label', `${paused ? 'Play' : 'Pause'} image rotation in ${title}`);
       toggle.title = paused ? 'Play' : 'Pause';
       toggle.querySelector('span').textContent = paused ? '▶' : 'Ⅱ';

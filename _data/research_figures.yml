@@ -2,6 +2,8 @@ chen2026-fig2:
   year: 2026
   number: 2
   doi: "10.3847/2041-8213/ae7a70"
+  card_caption: |-
+    Weak ice bands recur across 21 protostars beside the stronger $\mathdefault{CH\_{4}}$ absorption. Their detectability depends on both ice column density and spectral sensitivity.
   caption: |-
     Isolated absorption spectra of 21 protostars between $\mathdefault{6.9}$ and $\mathdefault{7.9\,\mu m}$ after subtraction of the local continuum. Rovibrational lines of gas-phase $\mathdefault{SO\_{2}}$ and $\mathdefault{CH\_{4}}$ are removed where necessary; thin and thick traces show the spectra before and after this removal, respectively. The spectra are vertically offset and arranged from top to bottom in approximate order of the strength of the $\mathdefault{CH\_{4}}$ band at $\mathdefault{7.67\,\mu m}$. Gray vertical dotted lines mark $\mathdefault{7.02}$, $\mathdefault{7.245}$, $\mathdefault{7.39}$, and $\mathdefault{7.67\,\mu m}$ as reference wavelengths for the four absorption features.
   alt: "Twenty-one vertically offset JWST spectra showing recurring weak ice bands near 7.02, 7.24, and 7.40 microns beside the stronger CH4 band at 7.67 microns."
@@ -9,6 +11,8 @@ chen2026-fig3:
   year: 2026
   number: 3
   doi: "10.3847/2041-8213/ae7a70"
+  card_caption: |-
+    The $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ bands correlate with each other and with $\mathdefault{CH\_{4}}$. Laboratory comparisons support $\mathdefault{HCOO^{-}}$ ice, with additional contributors needed at $\mathdefault{7.24\,\mu m}$.
   caption: |-
     Integrated absorption-band areas: $\mathdefault{7.40}$ versus $\mathdefault{7.24\,\mu m}$ (left), $\mathdefault{7.24}$ versus $\mathdefault{7.67\,\mu m}$ (middle), and $\mathdefault{7.40}$ versus $\mathdefault{7.67\,\mu m}$ (right). Stars represent observations. Hollow gray stars flag low signal-to-noise ratios in the weak bands, while filled gray stars flag contamination by gas-phase lines. Only filled stars, which have robust signal-to-noise ratios, enter the linear fits. Orange dashed lines and shaded regions show the best fits and their uncertainties; the fitted slopes and intercepts appear at the upper left of each panel.
 
@@ -18,6 +22,8 @@ chen2026-fig4:
   year: 2026
   number: 4
   doi: "10.3847/2041-8213/ae7a70"
+  card_caption: |-
+    Observed band positions and widths are compared with laboratory ice mixtures, testing possible molecular carriers and the compositions of the ices surrounding them.
   caption: |-
     Peak wavelength versus full width at half maximum (FWHM) for the absorption bands at (a) $\mathdefault{7.24}$, (b) $\mathdefault{7.40}$, (c) $\mathdefault{7.67}$, and (d) $\mathdefault{7.02\,\mu m}$. Stars show JWST observations; hollow gray stars indicate low signal-to-noise ratios and filled gray stars indicate gas-line contamination. Colored symbols distinguish the laboratory ice mixtures identified in each panel, and the number beside each symbol gives its temperature in $\mathdefault{K}$. The $\mathdefault{HCOO^{-}}$ experiments are labeled by their starting $\mathdefault{NH\_{3}:HCOOH}$ mixtures. Dotted lines joining pairs of $\mathdefault{C\_{2}H\_{5}OH}$ points in panel (a) indicate that a single laboratory band splits into two peaks.
 
@@ -27,6 +33,8 @@ chen2025-fig5:
   year: 2025
   number: 5
   doi: "10.1051/0004-6361/202453389"
+  card_caption: |-
+    Abundances relative to $\mathdefault{CH\_{3}OH}$ in low- and high-mass protostars show that $\mathdefault{CH\_{3}COCH\_{3}}$ can rival smaller organic molecules despite its extra carbon atom.
   caption: |-
     Mean column-density ratios relative to $\mathdefault{CH\_{3}OH}$ for six two-carbon and two three-carbon oxygen-bearing complex organic molecules. Blue and red bars represent low- and high-mass protostars, respectively; the vertical dashed line separates the two-carbon and three-carbon species. Hatched regions show the standard deviation weighted by measurement uncertainties in logarithmic space, and green numbers give the number of sources contributing to each bar.
 
@@ -37,6 +45,8 @@ chen2025-fig7:
   number: 7
   doi: "10.1051/0004-6361/202453389"
   max_width: 600
+  card_caption: |-
+    Proposed ice- and gas-phase routes connect $\mathdefault{CH\_{3}COCH\_{3}}$ to related molecules. These routes come from models, calculations, and experiments under different physical conditions.
   caption: |-
     Proposed formation pathways of $\mathdefault{CH\_{3}COCH\_{3}}$ and chemically related species. Blue arrows represent the MAGICKAL astrochemical network (Garrod et al. 2022), orange arrows represent theoretical calculations by Sung & Tidwell (1998), and green arrows represent laboratory experiments by Hudson et al. (2017). Gray arrows indicate assumed connections. Solid and dashed arrows distinguish solid-phase and gas-phase reactions. Dotted boxes enclose radicals, red outlines mark detected species, and pale yellow boxes highlight $\mathdefault{C\_{3}H\_{6}O}$ isomers. The annotations $\mathdefault{H\_{abs}}$, p.d., and (CR) refer to hydrogen abstraction, photodissociation, and cosmic-ray-induced processes, respectively.
 
@@ -46,6 +56,8 @@ chen2025-fig8:
   year: 2025
   number: 8
   doi: "10.1051/0004-6361/202453389"
+  card_caption: |-
+    Observed $\mathdefault{CH\_{3}COCH\_{3}}$ abundance ratios are compared with chemical models across source luminosities. The models do not reproduce its large excess over $\mathdefault{C\_{2}H\_{5}CHO}$ in the gas.
   caption: |-
     Column-density ratios of $\mathdefault{CH\_{3}COCH\_{3}}$ relative to (a) $\mathdefault{CH\_{3}CHO}$, (b) $\mathdefault{CH\_{2}CO}$, (c) $\mathdefault{s\text{-}C\_{2}H\_{5}CHO}$, and (d) $\mathdefault{CH\_{3}CCH}$ as a function of source luminosity. Blue, purple, and red points represent gas measurements in low-, intermediate-, and high-mass sources, respectively. Lighter red points in panel (b) have less secure $\mathdefault{CH\_{2}CO}$ column densities because its lines overlap optically thick $\mathdefault{CH\_{2}DOH}$ and $\mathdefault{NH\_{2}CHO}$ emission. Upward triangles mark lower limits on abundance ratios, including those in panel (c) where only upper limits on $\mathdefault{s\text{-}C\_{2}H\_{5}CHO}$ are available. Leftward triangles mark NGC 6334-38, whose luminosity is an upper limit.
 
@@ -55,6 +67,8 @@ chen2024-fig1:
   year: 2024
   number: 1
   doi: "10.1051/0004-6361/202450706"
+  card_caption: |-
+    As protostars heat their surroundings, ice mantles release molecules into warm gas. ALMA traces hot-core emission, while JWST absorption samples gas and ice along the line of sight.
   caption: |-
     Schematic of chemical evolution on dust grains during star formation. Different colors distinguish ice layers dominated by species such as $\mathdefault{H\_{2}O}$, $\mathdefault{CO}$, and complex organic molecules; arrows along the bottom give typical temperatures and densities at successive stages. The small red box marks the hot core, where temperatures above roughly $\mathdefault{100\,K}$ release most volatile material into the gas, making its molecular lines accessible to radio telescopes at (sub)millimeter wavelengths. The large blue box illustrates the infrared line of sight probed by telescopes such as JWST, which includes both ice in the extended envelope and gas in the hot core. The schematic was adapted in Chen et al. (2024) from Figure 1.4 of van 't Hoff (2019) and Figure 14 of Herbst & van Dishoeck (2009).
   alt: "A schematic of dust-grain ice evolution from cloud to protostar, showing changing ice layers and the regions probed by ALMA gas emission and JWST absorption."
@@ -62,6 +76,8 @@ chen2024-fig7:
   year: 2024
   number: 7
   doi: "10.1051/0004-6361/202450706"
+  card_caption: |-
+    JWST spectra reveal similar ice absorption in IRAS 2A and B1-c. Laboratory components separate B1-c's overlapping features into contributions from multiple molecular species.
   caption: |-
     Isolated JWST/MIRI-MRS ice spectra between $\mathdefault{6.8}$ and $\mathdefault{8.8\,\mu m}$ for IRAS 2A and B1-c (top), followed by the best-fit decomposition of B1-c (bottom). The IRAS 2A spectrum from Rocha et al. (2024) is binned by a factor of four and consequently has lower spectral resolution. Gas-phase lines have been removed from the B1-c spectrum.
 
@@ -71,6 +87,8 @@ chen2024-fig9:
   year: 2024
   number: 9
   doi: "10.1051/0004-6361/202450706"
+  card_caption: |-
+    $\mathdefault{CH\_{3}OCHO}$ and $\mathdefault{CH\_{3}OCH\_{3}}$ have broadly similar relative abundances in ice and gas, whereas $\mathdefault{CH\_{3}CHO}$ and $\mathdefault{C\_{2}H\_{5}OH}$ are more abundant in ice relative to $\mathdefault{CH\_{3}OH}$.
   caption: |-
     Column-density ratios relative to $\mathdefault{CH\_{3}OH}$ for $\mathdefault{CH\_{3}OCHO}$ (upper left), $\mathdefault{CH\_{3}OCH\_{3}}$ (upper right), $\mathdefault{CH\_{3}CHO}$ (lower left), and $\mathdefault{C\_{2}H\_{5}OH}$ (lower right). Points show gas measurements from nine low-mass sources and 14 high-mass CoCCoA sources, generally colored blue and red, respectively. Dashed lines and shaded regions show the ice ratios and their uncertainties in IRAS 2A (orange), B1-c (green), and comet 67P/C-G (purple), where measurements are available.
 
@@ -81,6 +99,8 @@ chen2024-fig10:
   number: 10
   doi: "10.1051/0004-6361/202450706"
   max_width: 600
+  card_caption: |-
+    Molecules with different spatial distributions contribute differently to ALMA emission and JWST absorption, so observing geometry can affect inferred ice–gas abundance comparisons.
   caption: |-
     Schematic showing how different spatial distributions can affect molecular column-density ratios inferred from ALMA gas observations (top) and JWST ice observations (bottom). The two colors represent two molecular species occupying different regions of the protostellar system. Their overlap with the telescope beam determines how much of each species contributes to the measured column density. The drawn beam widths and opening angles are exaggerated for clarity: at the actual telescope–source distances, the sampled beams are approximately thin cylinders. The diagram illustrates observing geometry rather than the true relative scales of telescopes, beams, and sources.
   alt: "Two diagrams showing ALMA sampling a compact hot core and JWST sampling ices along a line of sight through the envelope."
@@ -88,6 +108,8 @@ chen2023-fig2:
   year: 2023
   number: 2
   doi: "10.1051/0004-6361/202346491"
+  card_caption: |-
+    Line-rich ALMA spectra of 14 high-mass protostars reveal a diverse organic inventory. Spectral modeling separates overlapping emission and converts line strengths into molecular abundances.
   caption: |-
     ALMA spectra of 14 high-mass CoCCoA sources in the upper frequency tuning, $\mathdefault{258.0\text{–}261.7\,GHz}$. Flux densities in $\mathdefault{Jy\,beam^{-1}}$ are converted to brightness temperatures in $\mathdefault{K}$ using the Rayleigh–Jeans approximation. The sources are ordered by increasing average line intensity from bottom to top, and successive spectra are offset by $\mathdefault{100\,K}$ for clarity. Blue and orange shaded intervals highlight emission lines of $\mathdefault{CH\_{3}OCHO}$ (MF) and $\mathdefault{CH\_{3}OCH\_{3}}$ (DME), respectively.
   alt: "Fourteen vertically offset ALMA spectra spanning 258.0 to 261.7 GHz, showing the line-rich chemistry of CoCCoA sources."
@@ -95,6 +117,8 @@ chen2023-fig4:
   year: 2023
   number: 4
   doi: "10.1051/0004-6361/202346491"
+  card_caption: |-
+    Organic-molecule ratios broadly overlap across low- and high-mass protostars, consistent with chemistry established before star formation, although the similarities do not identify unique formation pathways.
   caption: |-
     Column-density ratios relative to $\mathdefault{CH\_{3}OH}$ versus bolometric luminosity for (a) $\mathdefault{CH\_{3}OCH\_{3}}$ (DME), (b) $\mathdefault{CH\_{3}OCHO}$ (MF), (c) $\mathdefault{C\_{2}H\_{5}OH}$, (d) $\mathdefault{CH\_{3}CHO}$, (e) $\mathdefault{CH\_{2}OHCHO}$ (GA), and (f) $\mathdefault{(CH\_{2}OH)\_{2}}$ (EG). Red points show the 14 high-mass CoCCoA sources; blue points show five low-mass literature sources: IRAS 16293 A and B, S68N, B1-c, and B1-bS. Downward triangles mark upper limits on molecular ratios. Leftward triangles mark NGC 6334-38 and NGC 6334-43, whose luminosities are upper limits.
 

@@ -101,12 +101,15 @@ html[data-theme="dark"] {
 .project-resource-logo img { display: block; width: 120px; max-width: 100%; height: auto; margin: 0; }
 .research-card { min-width: 0; border: 1px solid var(--global-border-color, #ddd); border-radius: 5px; padding: 1.6em; }
 .research-card h3 { border: 0; margin: .5em 0 .65em; padding: 0; font-size: 1.05em; line-height: 1.5; }
-.research-card .item-label { text-transform: none; letter-spacing: .035em; }
+.research-card .item-label { font-size: .9em; line-height: 1.5; text-transform: none; letter-spacing: .02em; }
 .research-card p { font-size: .92em; }
 .research-card-image { display: flex; justify-content: center; align-items: center; height: clamp(240px, 42vw, 580px); margin: 1em 0; padding: .75em; background: #fff; border: 1px solid var(--global-border-color, #ddd); border-radius: 3px; }
 .research-card-image img { width: 100%; height: 100%; object-fit: contain; margin: 0; }
 .research-carousel { margin: 1em 0; }
 .research-carousel .research-card-image { margin: 0; }
+.research-carousel-figure { display: block; margin: 0; }
+.research-card .research-carousel-caption { margin: .65em 0 0; min-height: 3.2em; color: var(--global-text-color); font-size: .85em; line-height: 1.6; text-align: left; font-style: normal; }
+.research-carousel-caption p { margin: 0; font-size: inherit; }
 .research-carousel-controls { display: flex; align-items: center; justify-content: center; gap: .6em; margin-top: .4em; min-height: 30px; }
 .research-carousel-controls button { display: inline-grid; place-items: center; width: 30px; height: 30px; padding: 0; color: var(--personal-title-accent); background: transparent; border: 1px solid var(--global-border-color); border-radius: 3px; font: inherit; font-size: 1em; line-height: 1; cursor: pointer; }
 .research-carousel-controls button:hover { background: var(--personal-accent-tint); }
