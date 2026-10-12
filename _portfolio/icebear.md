@@ -11,13 +11,13 @@ image_alt: "Chemical evolution on dust grains through protostellar stages and th
 image_caption: "Ice and gas through protostellar evolution · Chen et al. (2024), Fig. 1"
 ---
 
-**ICEBEAR** is a JWST Cycle 4 GO program awarded $\mathdefault{44.3\,h}$ of observing time. The project aims to compare the ice and gas reservoirs of interstellar molecules (especially complex organics) in high-mass protostars by combining JWST and ALMA observations. The scientific goal is to investigate the formation and evolution of interstellar molecules and whether they are inherited or reprocessed after being released from grain mantles to hot cores.
+**ICEBEAR** is a JWST Cycle 4 GO program awarded $\mathdefault{44.3\,h}$ of observing time to study the ice and gas reservoirs of interstellar molecules, especially complex organics, in high-mass protostars. Combining JWST and ALMA observations, the project investigates molecular formation and evolution, including whether molecules are inherited or chemically reprocessed after they are released from icy grain mantles into hot cores.
 
 ## Following molecules from ice to gas
 
-Dust-grain ice mantles preserve a record of chemistry in cold molecular material. As a protostar heats its surroundings, molecules sublimate into the gas, where further reactions can alter their abundances. ICEBEAR investigates how closely the warm gas reflects the molecular inventory stored in the ices and where chemical reprocessing becomes important.
+The molecular inventory stored in cold dust-grain ice mantles provides a starting point for interpreting the chemistry of the warm gas around a protostar. As the surrounding material heats up, molecules sublimate into the gas, where further reactions can alter their abundances. ICEBEAR investigates how closely the warm gas reflects the composition of the ices and where chemical reprocessing becomes important.
 
-Comparing JWST ice measurements with ALMA gas observations connects these two phases. Chemical models help interpret similarities and differences in the measured molecular abundances, while accounting for the different regions sampled by the two telescopes.
+With JWST measuring ice absorption and ALMA tracing gas emission, ICEBEAR can compare the molecular inventories of the two phases while accounting for the different regions sampled by each telescope. Chemical models help interpret the similarities and differences in the measured abundances.
 
 ## Reading the chemical and physical history of ices
 

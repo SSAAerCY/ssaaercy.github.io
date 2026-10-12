@@ -11,17 +11,17 @@ carousel_figures: ["chen2026-fig3", "chen2026-fig4"]
 image_alt: "Correlations between weak protostellar ice bands and comparisons with laboratory HCOO- mixtures."
 ---
 
-How widespread are the weak signatures of complex ices in young stellar systems? In this study, I analyzed JWST/MIRI-MRS spectra of 21 protostars, measuring absorption bands at $\mathdefault{7.02}$, $\mathdefault{7.24}$, $\mathdefault{7.40}$, and $\mathdefault{7.67\,\mu m}$.
+To assess how widespread weak complex-ice features are in young stellar systems, I analyzed JWST/MIRI-MRS spectra of 21 protostars and compared their absorption-band strengths and profiles. The study focuses on bands at $\mathdefault{7.02}$, $\mathdefault{7.24}$, $\mathdefault{7.40}$, and $\mathdefault{7.67\,\mu m}$, using laboratory spectra to evaluate their possible molecular carriers.
 
 ## From band strengths to molecular carriers
 
-The $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ bands occur together and their integrated strengths are strongly correlated. Comparing these measurements with laboratory spectra tests whether a single ice species can explain both features.
+The $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ bands occur together and have strongly correlated integrated strengths, motivating a comparison with laboratory spectra to test whether both features can be explained by a single ice species.
 
 {% include research-figure.html id="chen2026-fig3" %}
 
 ## What the band profiles reveal
 
-The $\mathdefault{CH\_{4}}$ band at $\mathdefault{7.67\,\mu m}$ has remarkably uniform peak wavelengths and widths across the sample. The other bands vary more between sources. Laboratory comparisons favor $\mathdefault{HCOO^{-}}$ as the main carrier of the $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ features, but $\mathdefault{HCOO^{-}}$ alone cannot reproduce their intensity ratios. Contributions from other species, including $\mathdefault{C\_{2}H\_{5}OH}$ and $\mathdefault{CH\_{3}CHO}$, remain relevant.
+Although the $\mathdefault{CH\_{4}}$ band at $\mathdefault{7.67\,\mu m}$ has remarkably uniform peak wavelengths and widths across the sample, the other bands vary more between sources. Laboratory comparisons favor $\mathdefault{HCOO^{-}}$ as the main carrier of the $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ features, but $\mathdefault{HCOO^{-}}$ alone cannot reproduce their intensity ratios. Contributions from other species, including $\mathdefault{C\_{2}H\_{5}OH}$ and $\mathdefault{CH\_{3}CHO}$, therefore remain relevant.
 
 {% include research-figure.html id="chen2026-fig4" %}
 

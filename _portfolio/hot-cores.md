@@ -11,15 +11,15 @@ carousel_figures: ["chen2023-fig2", "chen2023-fig4"]
 image_alt: "Line-rich ALMA spectra of the 14 high-mass protostars in the CoCCoA sample."
 ---
 
-Do low- and high-mass stars begin with similar organic chemistry? The CoCCoA survey lets us approach this question through a statistical sample of hot cores, the warm molecular regions around forming massive stars. In my 2023 study, I measured six oxygen-bearing complex organic molecules in 14 high-mass protostellar sources and compared their abundances with five low-mass protostars from the literature.
+Comparing organic-molecule abundances in low- and high-mass protostars lets us investigate whether stars of different masses share a similar chemical starting point. The CoCCoA survey provides a statistical sample of hot cores, the warm molecular regions around forming massive stars, for this comparison. In my 2023 study, I measured six oxygen-bearing complex organic molecules in 14 high-mass protostellar sources and compared their abundances with five low-mass protostars from the literature.
 
 ## Turning rich spectra into molecular inventories
 
-The ALMA spectra contain a dense forest of molecular lines. Spectral modeling constrains column densities and excitation temperatures for $\mathdefault{CH\_{3}CHO}$, $\mathdefault{C\_{2}H\_{5}OH}$, $\mathdefault{CH\_{3}OCH\_{3}}$, $\mathdefault{CH\_{3}OCHO}$, $\mathdefault{CH\_{2}OHCHO}$, and $\mathdefault{(CH\_{2}OH)\_{2}}$. Because the main $\mathdefault{CH\_{3}OH}$ lines are often optically thick, I used its $\mathdefault{CH\_{3}^{18}OH}$ isotopologue to estimate $\mathdefault{CH\_{3}OH}$ column densities and obtain meaningful abundance ratios.
+By modeling the dense forest of molecular lines in the ALMA spectra, I constrained column densities and excitation temperatures for $\mathdefault{CH\_{3}CHO}$, $\mathdefault{C\_{2}H\_{5}OH}$, $\mathdefault{CH\_{3}OCH\_{3}}$, $\mathdefault{CH\_{3}OCHO}$, $\mathdefault{CH\_{2}OHCHO}$, and $\mathdefault{(CH\_{2}OH)\_{2}}$. Because the main $\mathdefault{CH\_{3}OH}$ lines are often optically thick, I used its $\mathdefault{CH\_{3}^{18}OH}$ isotopologue to estimate $\mathdefault{CH\_{3}OH}$ column densities and obtain meaningful abundance ratios.
 
 {% include research-figure.html id="chen2023-fig2" %}
 
-## A common chemical starting point?
+## Abundance similarities and their implications
 
 Despite the sources' different luminosities and morphologies, their organic-molecule ratios relative to $\mathdefault{CH\_{3}OH}$ are broadly similar to those in low-mass protostars. $\mathdefault{CH\_{3}OCH\_{3}}$ and $\mathdefault{CH\_{3}OCHO}$ show the highest and most stable ratios, whereas the other four species exhibit greater variation.
 
