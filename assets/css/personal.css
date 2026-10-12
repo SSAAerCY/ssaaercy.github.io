@@ -117,6 +117,8 @@ html[data-theme="dark"] {
 .research-figure { display: block; width: 100%; max-width: 900px; margin: 2em auto; }
 .research-figure img { display: block; width: 100%; height: auto; margin: 0; background: #fff; }
 .research-figure figcaption { display: block; margin-top: .75em; font-size: .75em; line-height: 1.65; text-align: left; font-style: normal; }
+.research-figure figcaption p { margin: 0 0 .7em; font-size: inherit; }
+.research-figure figcaption p:last-child { margin-bottom: 0; }
 .research-figure-wrap { display: flow-root; }
 .research-figure--wrap-right { width: 100%; max-width: 340px; margin: 1.25em auto 1.75em; }
 @media (min-width: 1000px) {
