@@ -65,7 +65,7 @@ chen2024-fig7:
   caption: |-
     Isolated JWST/MIRI-MRS ice spectra between $\mathdefault{6.8}$ and $\mathdefault{8.8\,\mu m}$ for IRAS 2A and B1-c (top), followed by the best-fit decomposition of B1-c (bottom). The IRAS 2A spectrum from Rocha et al. (2024) is binned by a factor of four and consequently has lower spectral resolution. Gas-phase lines have been removed from the B1-c spectrum.
 
-    The decomposition displays nine of the 12 tested molecular candidates whose contributions are statistically significant in this wavelength range; $\mathdefault{SO\_{2}}$, $\mathdefault{CH\_{3}COOH}$, and $\mathdefault{CH\_{3}CN}$ are excluded. Colored laboratory components add to the best-fit model, and their legend entries specify the ice constituents, mixing ratios, and temperatures. The residual beneath the fit shows the remaining differences between the observed spectrum and the combined model. A step-by-step decomposition is provided in Figure K.11 of the paper.
+    The decomposition displays nine of the 12 tested molecular candidates whose contributions are statistically significant in this wavelength range; $\mathdefault{SO\_{2}}$, $\mathdefault{CH\_{3}COOH}$, and $\mathdefault{CH\_{3}CN}$ are excluded. Colored laboratory components add to the best-fit model, and their legend entries specify the ice constituents, mixing ratios, and temperatures. The residual beneath the fit shows the remaining differences between the observed spectrum and the combined model. A step-by-step decomposition is provided in Figure K.11 in Chen et al. (2024).
   alt: "JWST ice spectra of IRAS 2A and B1-c above a colored molecular decomposition and residual spectrum for B1-c."
 chen2024-fig9:
   year: 2024

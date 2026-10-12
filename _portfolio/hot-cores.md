@@ -15,7 +15,7 @@ Comparing organic-molecule abundances in low- and high-mass protostars lets us i
 
 ## Turning rich spectra into molecular inventories
 
-Figure 2 gives an overview of the ALMA spectra across the high-mass sample. Each spectrum is vertically offset, and the sources are ordered by their average line intensity. The crowded spectra demonstrate the richness of the gas-phase chemistry, while the highlighted $\mathdefault{CH\_{3}OCHO}$ and $\mathdefault{CH\_{3}OCH\_{3}}$ transitions show how prominent these molecules are across sources. Differences in brightness and line blending make spectral modeling essential for comparing molecular abundances.
+Figure 2 in Chen et al. (2023) gives an overview of the ALMA spectra across the high-mass sample. Each spectrum is vertically offset, and the sources are ordered by their average line intensity. The crowded spectra demonstrate the richness of the gas-phase chemistry, while the highlighted $\mathdefault{CH\_{3}OCHO}$ and $\mathdefault{CH\_{3}OCH\_{3}}$ transitions show how prominent these molecules are across sources. Differences in brightness and line blending make spectral modeling essential for comparing molecular abundances.
 
 I fitted the molecular emission to derive column densities and excitation temperatures for $\mathdefault{CH\_{3}CHO}$, $\mathdefault{C\_{2}H\_{5}OH}$, $\mathdefault{CH\_{3}OCH\_{3}}$, $\mathdefault{CH\_{3}OCHO}$, $\mathdefault{CH\_{2}OHCHO}$, and $\mathdefault{(CH\_{2}OH)\_{2}}$. Because the main $\mathdefault{CH\_{3}OH}$ lines are generally optically thick, I used the rarer $\mathdefault{CH\_{3}^{18}OH}$ isotopologue to infer its column density. This provides a more reliable reference for the abundance ratios than the saturated main-isotopologue lines.
 
@@ -23,7 +23,7 @@ I fitted the molecular emission to derive column densities and excitation temper
 
 ## Similar chemistry across stellar masses
 
-Figure 4 plots the column-density ratio of each molecule to $\mathdefault{CH\_{3}OH}$ against bolometric luminosity. The red points represent high-mass CoCCoA sources and the blue points represent low-mass literature sources; arrows indicate upper limits. The gray lines and shaded regions summarize the combined sample, while the black dashed and dotted lines show modeled ratios after the cold-collapse and warm-up stages, respectively.
+Figure 4 in Chen et al. (2023) plots the column-density ratio of each molecule to $\mathdefault{CH\_{3}OH}$ against bolometric luminosity. The red points represent high-mass CoCCoA sources and the blue points represent low-mass literature sources; arrows indicate upper limits. The gray lines and shaded regions summarize the combined sample, while the black dashed and dotted lines show modeled ratios after the cold-collapse and warm-up stages, respectively.
 
 Across the six panels, the low- and high-mass sources occupy broadly overlapping ranges despite their very different luminosities, morphologies, and continuum brightness. There is no clear separation between the two groups. This supports formation under similar conditions, plausibly in icy grain mantles during the pre-stellar stage, before the environments around low- and high-mass stars diverge. Gas-phase formation may also contribute, so the similarity does not establish a unique formation history.
 
@@ -33,7 +33,7 @@ The strongest and most stable ratios are those of $\mathdefault{CH\_{3}OCH\_{3}}
 
 ## What models and experiments still need to explain
 
-The model lines in Figure 4 allow the abundance patterns to be tested against chemistry before and after the ice warms and sublimates. Many trends are reproduced, but the simulations tend to overestimate $\mathdefault{C\_{2}H\_{5}OH}$ and $\mathdefault{CH\_{2}OHCHO}$ relative to $\mathdefault{CH\_{3}OH}$. Gas-phase chemistry could affect the former, while differing emitting areas and beam dilution may contribute to discrepancies for the latter and $\mathdefault{(CH\_{2}OH)\_{2}}$.
+The model lines in Figure 4 in Chen et al. (2023) allow the abundance patterns to be tested against chemistry before and after the ice warms and sublimates. Many trends are reproduced, but the simulations tend to overestimate $\mathdefault{C\_{2}H\_{5}OH}$ and $\mathdefault{CH\_{2}OHCHO}$ relative to $\mathdefault{CH\_{3}OH}$. Gas-phase chemistry could affect the former, while differing emitting areas and beam dilution may contribute to discrepancies for the latter and $\mathdefault{(CH\_{2}OH)\_{2}}$.
 
 Laboratory comparisons add another constraint: irradiation can enhance $\mathdefault{CH\_{3}OCHO}$ relative to $\mathdefault{CH\_{2}OHCHO}$ and $\mathdefault{(CH\_{2}OH)\_{2}}$, but the observed ratios can be higher still. The observations therefore provide both support for early ice chemistry and specific targets for improving reaction networks. By establishing these trends across a larger high-mass sample, the study supplies a reference for subsequent CoCCoA work and for direct ice–gas comparisons with JWST.
 

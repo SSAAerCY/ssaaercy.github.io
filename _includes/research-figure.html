@@ -1,11 +1,11 @@
 {% assign figure = site.data.research_figures[include.id] %}
 <figure class="research-figure{% if include.wrap == 'right' %} research-figure--wrap-right{% endif %}"{% if figure.max_width %} style="max-width: {{ figure.max_width }}px"{% endif %}>
-  <a href="{{ '/images/research/' | append: include.id | append: '.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Open Figure {{ figure.number }} from Chen et al. {{ figure.year }} at full resolution">
+  <a href="{{ '/images/research/' | append: include.id | append: '.png' | relative_url }}" target="_blank" rel="noopener" aria-label="Open Figure {{ figure.number }} in Chen et al. ({{ figure.year }}) at full resolution">
     <img src="{{ '/images/research/' | append: include.id | append: '.png' | relative_url }}" alt="{{ figure.alt | escape }}" loading="lazy" decoding="async">
   </a>
   <figcaption>
-    {% capture figure_label %}**Figure {{ figure.number }}.** {% endcapture %}
+    {% capture figure_label %}**Figure {{ figure.number }} in [Chen et al. ({{ figure.year }})](https://doi.org/{{ figure.doi }}).** {% endcapture %}
     {{ figure.caption | prepend: figure_label | markdownify }}
-    <p class="research-figure-source"><a href="https://doi.org/{{ figure.doi }}">Chen et al. ({{ figure.year }})</a>. Click the figure to view it at full resolution.</p>
+    <p class="research-figure-source">Click the figure to view it at full resolution.</p>
   </figcaption>
 </figure>

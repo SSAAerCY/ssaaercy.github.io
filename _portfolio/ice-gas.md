@@ -15,7 +15,7 @@ Complex organic molecules are thought to form in icy grain mantles before enteri
 
 ## Following molecules from grains to warm gas
 
-Figure 1 places the comparison within the evolution of a protostellar system. Ice mantles grow on cold dust grains, with changing compositions as the cloud becomes denser and molecules such as $\mathdefault{CO}$ freeze out. Heating by the young star eventually releases volatile material into the gas in the compact inner region, where ALMA can detect its molecular emission. JWST measures ice absorption against the infrared continuum, sampling material along the line of sight through the surrounding envelope.
+Figure 1 in Chen et al. (2024) places the comparison within the evolution of a protostellar system. Ice mantles grow on cold dust grains, with changing compositions as the cloud becomes denser and molecules such as $\mathdefault{CO}$ freeze out. Heating by the young star eventually releases volatile material into the gas in the compact inner region, where ALMA can detect its molecular emission. JWST measures ice absorption against the infrared continuum, sampling material along the line of sight through the surrounding envelope.
 
 These complementary views connect the molecular material still stored in cold ices with the gas released near the protostar. They also introduce an important distinction: the two telescopes do not necessarily sample the same parcel of material. The abundance comparison must therefore account for both chemistry and observing geometry.
 
@@ -23,7 +23,7 @@ These complementary views connect the molecular material still stored in cold ic
 
 ## Identifying the complex-ice inventory
 
-The top panel of Figure 7 shows the isolated ice fingerprint spectra of IRAS 2A and B1-c between $\mathdefault{6.8}$ and $\mathdefault{8.8\,\mu m}$. Their similar absorption patterns suggest comparable inventories, despite differences in individual features. To identify the carriers in B1-c, I compared the observed spectrum with laboratory ice mixtures and used least-squares and Markov Chain Monte Carlo fitting to constrain their contributions and uncertainties.
+The top panel of Figure 7 in Chen et al. (2024) shows the isolated ice fingerprint spectra of IRAS 2A and B1-c between $\mathdefault{6.8}$ and $\mathdefault{8.8\,\mu m}$. Their similar absorption patterns suggest comparable inventories, despite differences in individual features. To identify the carriers in B1-c, I compared the observed spectrum with laboratory ice mixtures and used least-squares and Markov Chain Monte Carlo fitting to constrain their contributions and uncertainties.
 
 The lower panel separates the combined absorption into molecular components. The strongest feature is due to $\mathdefault{CH\_{4}}$, while weaker, overlapping bands constrain species including $\mathdefault{HCOO^{-}}$, $\mathdefault{CH\_{3}CHO}$, $\mathdefault{C\_{2}H\_{5}OH}$, $\mathdefault{CH\_{3}OCH\_{3}}$, $\mathdefault{CH\_{3}OCHO}$, and $\mathdefault{CH\_{3}COCH\_{3}}$. The residual spectrum shows where the selected laboratory components reproduce the observations and where mismatches remain. In this analysis, $\mathdefault{CH\_{3}OCH\_{3}}$ and $\mathdefault{CH\_{3}COCH\_{3}}$ are considered firmly detected in B1-c, whereas their identifications in the earlier IRAS 2A analysis were tentative.
 
@@ -33,7 +33,7 @@ Most of the complex-ice profiles favor $\mathdefault{H\_{2}O}$-rich mixtures, al
 
 ## Similarities and differences across phases
 
-I modeled the ALMA emission lines to derive gas-phase column densities and normalized the molecular inventories in both phases to $\mathdefault{CH\_{3}OH}$. Figure 9 compares the gas measurements, shown as points, with the ice measurements, shown as shaded regions and dashed lines. Literature gas data from low- and high-mass protostars provide context for the two target sources; ice measurements are available for far fewer objects, with comet 67P/C-G included as a comparison.
+I modeled the ALMA emission lines to derive gas-phase column densities and normalized the molecular inventories in both phases to $\mathdefault{CH\_{3}OH}$. Figure 9 in Chen et al. (2024) compares the gas measurements, shown as points, with the ice measurements, shown as shaded regions and dashed lines. Literature gas data from low- and high-mass protostars provide context for the two target sources; ice measurements are available for far fewer objects, with comet 67P/C-G included as a comparison.
 
 The upper panels show that $\mathdefault{CH\_{3}OCHO}$ and $\mathdefault{CH\_{3}OCH\_{3}}$ have broadly consistent ratios in ice and gas. This is compatible with direct inheritance during sublimation, but a strong chemical connection to $\mathdefault{CH\_{3}OH}$ could also preserve similar ratios as the molecules evolve. The abundance agreement alone cannot distinguish these explanations.
 
@@ -43,7 +43,7 @@ The lower panels reveal a different behavior for $\mathdefault{CH\_{3}CHO}$ and 
 
 ## Chemistry and observing geometry
 
-Figure 10 illustrates how different molecular distributions can alter measured ratios. In the upper panel, emission from a compact gas component is diluted more strongly if it is unresolved by the ALMA beam. In the lower panel, JWST integrates ice absorption through the envelope; a molecule present over a more extended region can contribute a larger column density even if its local abundance is unchanged.
+Figure 10 in Chen et al. (2024) illustrates how different molecular distributions can alter measured ratios. In the upper panel, emission from a compact gas component is diluted more strongly if it is unresolved by the ALMA beam. In the lower panel, JWST integrates ice absorption through the envelope; a molecule present over a more extended region can contribute a larger column density even if its local abundance is unchanged.
 
 The high angular resolution of our ALMA data helps limit beam dilution. A simple envelope model also indicates that, under the assumed density distributions and formation and desorption boundaries, differences in the ice distributions alone are insufficient to explain the full order-of-magnitude discrepancies. Gas-phase reprocessing is therefore a plausible explanation, while the model assumptions and the small ice sample prevent a unique interpretation. Extending this comparison to more sources and better-constrained chemical models will test how much of the ice inventory survives into warm protostellar gas.
 
