@@ -14,6 +14,8 @@ html[data-theme="dark"] {
   --personal-accent-foreground: #102134;
 }
 .page__footer { position: relative; bottom: auto; }
+.sidebar .author__name { font-size: 1.15em; }
+.sidebar .author__bio, .sidebar .author__urls li { font-size: .9em; line-height: 1.6; }
 .author__urls .author__desktop { white-space: normal; overflow-wrap: anywhere; }
 @media (min-width: 1024px) { .page { padding-right: 3%; } }
 [hidden] { display: none !important; }

@@ -2,6 +2,7 @@
 title: "Yuan Chen 陈缘"
 seo_title: "Yuan Chen 陈缘 | Astronomy & Astrochemistry"
 append_site_title: false
+show_beyond_astronomy: false
 permalink: /
 excerpt: "Yuan Chen (陈缘), astronomer and postdoctoral researcher at MPE, studying astrochemistry, star formation, and interstellar ices with JWST and ALMA."
 redirect_from:
@@ -18,12 +19,6 @@ I was born and raised in Guangzhou, a subtropical city in southern China known f
   <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
   <a class="btn" href="{{ site.cv_pdf | relative_url }}">Download CV <span aria-hidden="true">↗</span></a>
 </div>
-
-## Research interests
-
-- **Complex organic molecules (COMs):** their formation and chemical evolution in protostellar environments.
-- **Interstellar ices:** infrared spectroscopy and the identification of molecular ice features with JWST.
-- **The ice–gas connection:** comparing JWST ice measurements with ALMA observations of gas-phase molecules.
 
 ## Selected work
 
@@ -45,6 +40,8 @@ I was born and raised in Guangzhou, a subtropical city in southern China known f
 
 [View all publications →]({{ '/publications/' | relative_url }})
 
+{% if page.show_beyond_astronomy %}
 ## Beyond astronomy
 
 I enjoy traveling, photography, and drawing.
+{% endif %}
