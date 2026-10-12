@@ -11,6 +11,10 @@ carousel_figures: ["chen2026-fig3", "chen2026-fig4"]
 image_alt: "Correlations between weak protostellar ice bands and comparisons with laboratory HCOO- mixtures."
 ---
 
+<div class="research-figure-wrap" markdown="1">
+
+{% include research-figure.html id="chen2026-fig2" wrap="right" %}
+
 Weak absorption features in the “COM ice fingerprint range” offer a way to investigate the molecular material stored in protostellar ices, but their small amplitudes and overlapping profiles make them difficult to identify. My 2026 study uses JWST/MIRI-MRS spectra of 21 protostars to quantify four bands at $\mathdefault{7.02}$, $\mathdefault{7.24}$, $\mathdefault{7.40}$, and $\mathdefault{7.67\,\mu m}$, extending earlier studies of individual sources to a systematic comparison across a larger sample.
 
 ## Measuring weak bands across protostars
@@ -18,6 +22,10 @@ Weak absorption features in the “COM ice fingerprint range” offer a way to i
 I isolated the weak features from the local continuum and, where necessary, removed superposed gas-phase lines before measuring their peak wavelengths, widths, peak optical depths, and integrated areas. These measurements allow two independent comparisons with laboratory ice spectra: band areas test the relative contributions of candidate species, while peak positions and widths constrain their identities and mixing environments. The study characterizes the observed bands rather than deriving a complete molecular inventory through a laboratory-spectrum decomposition for every source.
 
 The sample was selected to include sources with a clearly detected $\mathdefault{CH\_{4}}$ ice band, providing a reliable reference for the weaker features. The $\mathdefault{7.24}$ and $\mathdefault{7.40\,\mu m}$ bands are recognized together in most sources, although some detections remain tentative at low signal-to-noise ratios. The $\mathdefault{7.02\,\mu m}$ feature is harder to measure because it lies on the wing of the broad $\mathdefault{NH\_{4}^{+}}$ absorption and is more sensitive to the placement of the local continuum.
+
+Figure 2 shows this comparison across the sample. The spectra are vertically offset for clarity and arranged roughly by the strength of the $\mathdefault{CH\_{4}}$ band. Thin and thick traces show the spectra before and after gas-line removal where it was needed, and the dotted lines mark reference wavelengths for the four ice features. The recurring band patterns are visible across many sources, while the contrast between clear and marginal detections illustrates why sensitivity matters when assessing the prevalence of complex ices.
+
+</div>
 
 ## From band strengths to molecular carriers
 

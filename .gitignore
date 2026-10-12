@@ -19,6 +19,11 @@ __pycache__/
 /tmp/
 /output/
 
+# Local maintenance tools and agent instructions
+/*.command
+/scripts/
+/AGENTS.md
+
 # Unpublished Gallery: preserve these files locally until it is ready
 /_pages/gallery.html
 /_data/gallery.yml

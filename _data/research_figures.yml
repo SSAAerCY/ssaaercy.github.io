@@ -1,3 +1,9 @@
+chen2026-fig2:
+  year: 2026
+  number: 2
+  doi: "10.3847/2041-8213/ae7a70"
+  caption: "Isolated ice absorption spectra of 21 protostars, with gas-phase lines removed where needed. The spectra are vertically offset and roughly ordered by CH₄-band strength."
+  alt: "Twenty-one vertically offset JWST spectra showing recurring weak ice bands near 7.02, 7.24, and 7.40 microns beside the stronger CH4 band at 7.67 microns."
 chen2026-fig3:
   year: 2026
   number: 3
