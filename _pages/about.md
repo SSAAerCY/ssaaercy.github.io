@@ -20,6 +20,12 @@ I was born and raised in Guangzhou, a subtropical city in southern China known f
   <a class="btn" href="{{ site.cv_pdf | relative_url }}">Download CV <span aria-hidden="true">↗</span></a>
 </div>
 
+## Research interests
+
+- **Complex organic molecules (COMs):** their formation and chemical evolution in protostellar environments.
+- **Interstellar ices:** infrared spectroscopy and the identification of molecular ice features with JWST.
+- **The ice–gas connection:** comparing JWST ice measurements with ALMA observations of gas-phase molecules.
+
 ## Selected work
 
 {% assign citation_metrics = site.data.citation_metrics %}

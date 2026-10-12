@@ -6,6 +6,7 @@ publish_site_directory="${0:A:h}"
 publish_temporary_directory=""
 publish_lock_directory=""
 publish_owns_lock=0
+publish_commit_message="${1:-}"
 
 publish_cleanup() {
   local publish_result=$?
@@ -79,6 +80,15 @@ if ! git diff --cached --quiet; then
   print -r -- "本次更新："
   git diff --cached --stat
 
+  # Describe the change instead of generating an uninformative timestamp.
+  while [[ -z "${publish_commit_message//[[:space:]]/}" ]]; do
+    [[ -t 0 ]] || publish_stop '请提供具体更新说明，例如：./publish.command "Update teaching experience and CV PDF"'
+    print -r -- ""
+    print -r -- "请简要描述这次更新，例如：Update teaching experience and CV PDF"
+    print -n -r -- "提交说明："
+    IFS= read -r publish_commit_message || publish_stop "未输入提交说明，上传已停止。"
+  done
+
   publish_build_command=()
   if [[ -x /private/tmp/yuan-ruby-runtime/run-ruby && -f /private/tmp/yuan-modern-gems/bin/bundle ]]; then
     publish_build_command=(/private/tmp/yuan-ruby-runtime/run-ruby /private/tmp/yuan-modern-gems/bin/bundle)
@@ -115,8 +125,7 @@ if ! git diff --cached --quiet; then
     print -r -- "本地 Jekyll 环境未就绪；本次由 GitHub Actions 检查和构建。"
   fi
 
-  publish_timestamp="$(TZ=Europe/Berlin date '+%Y-%m-%d %H:%M %Z')"
-  git commit -m "Update website ($publish_timestamp)"
+  git commit -m "$publish_commit_message"
 fi
 
 if [[ "$(git rev-parse HEAD)" == "$(git rev-parse "origin/$publish_branch")" ]]; then

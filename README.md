@@ -44,7 +44,7 @@ python3 -m http.server 4000 --bind 127.0.0.1 --directory _site
 
 ## GitHub Pages
 
-保存并检查本地预览后，双击 **`publish.command`** 即可上传更新。它会获取远端状态，遵守 `.gitignore`，检查文件大小，并在本地 Ruby 环境可用时构建实际将上传的源码；随后自动创建带时间的提交并推送。无需关闭 `preview.command` 的窗口。
+保存并检查本地预览后，双击 **`publish.command`**，在终端提示时写一句具体的更新说明（中英文均可），即可上传更新。它会获取远端状态，遵守 `.gitignore`，检查文件大小，并在本地 Ruby 环境可用时构建实际将上传的源码；随后使用这句说明创建提交并推送。也可在终端运行 `./publish.command "Update teaching experience and CV PDF"`。无需关闭 `preview.command` 的窗口。
 
 终端显示“源码已上传”后，GitHub Actions 会自动构建和发布。等 [Actions](https://github.com/SSAAerCY/ssaaercy.github.io/actions) 中 build 和 deploy 都成功，再刷新正式网页。没有新修改时不会创建空提交；上次上传失败但已经提交的内容可再次双击重试。若远端有新提交或构建失败，脚本会停止，并保留本地修改，不会强制覆盖 GitHub。
 
