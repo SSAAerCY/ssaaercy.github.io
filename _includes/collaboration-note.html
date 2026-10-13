@@ -1,0 +1,6 @@
+<aside class="collaboration-note" aria-label="Collaboration invitation">
+  <p><strong>Open to collaboration</strong>
+    {{ include.message | escape }}
+    <a href="mailto:{{ site.author.email | escape }}?subject={{ include.subject | default: 'Research collaboration' | uri_escape }}">Get in touch <span aria-hidden="true">→</span></a>
+  </p>
+</aside>

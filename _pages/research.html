@@ -6,6 +6,7 @@ research_carousels: true
 ---
 
 <p class="research-keywords"><strong>Keywords:</strong> Astrochemistry · (Sub)millimeter &amp; infrared observations (ALMA &amp; JWST) · Interstellar medium · Complex organic molecules (COMs) · Star-forming regions · Protostars (hot cores/corinos)</p>
+{% include collaboration-note.html message="If you have an idea for working together, I'd be happy to hear from you." subject="Research collaboration" %}
 {% assign paper_studies = site.portfolio | where: 'kind', 'paper' %}
 {% for project in site.data.research_projects %}
 <section class="research-project" data-project="{{ project.id }}" aria-labelledby="project-{{ project.id }}">

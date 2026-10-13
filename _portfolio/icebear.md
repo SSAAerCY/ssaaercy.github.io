@@ -13,6 +13,8 @@ image_caption: "Ice and gas through protostellar evolution · Chen et al. (2024)
 
 **ICEBEAR** is a JWST Cycle 4 GO program targeting 15 high-mass protostars, with $\mathdefault{44.3\,h}$ of observing time. I lead the program and its ALMA Cycle 12 follow-up, **2025.1.01411.S**, to study what happens to molecular ices as they enter the warm gas around young massive stars. We will also use the two telescopes to test how infrared radiation excites the gas and affects the molecular emission we observe.
 
+{% include collaboration-note.html message="I'm happy to discuss ideas for ICEBEAR and its ALMA follow-up." subject="ICEBEAR collaboration" %}
+
 ## Following molecules from ice to gas with JWST and ALMA
 
 Ice mantles on cold dust grains store molecules that are released as a protostar heats its surroundings. Some may survive in the warm gas, while others react to form new species or are destroyed. By comparing their abundances in ice and gas, we can examine how much of the ice composition is preserved and where further chemistry may be needed to explain the gas abundances.
